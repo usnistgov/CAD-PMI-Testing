@@ -3,4 +3,21 @@ title: "CAD-PMI-Testing"
 description: "Visualization of CAD-PMI-Testing data using Keshif"
 
 baseurl: "/CAD-PMI-Testing"
-rooturl: ""
+url: "https://pages.nist.gov/"
+markdown: kramdown
+
+exclude:
+- ".ruby-version"
+- ".jekyll-metadata"
+- ".gitignore"
+- Gemfile
+- Gemfile.lock
+- README.md
+- CONTRIBUTING.md
+- LICENSE.md
+
+# GitHub information
+org_name: usnistgov
+repo_name: CAD-PMI-Testing
+
+host: 0.0.0.0
