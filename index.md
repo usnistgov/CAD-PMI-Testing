@@ -3,7 +3,7 @@ layout: cover
 title: "NIST CAD-PMI Testing Visualization"
 ---
 <section class="home home-title" markdown="1">
-# CAD-PMI-Testing
+## CAD-PMI-Testing
 </section>
 
 <section class="home home-about" markdown="1">
@@ -11,9 +11,13 @@ title: "NIST CAD-PMI Testing Visualization"
 <div class="section-content" markdown="1">
 These visualizations were created with Keshif which can be found at <a href="http://keshif.me">http://keshif.me</a> and whose code can ben found on GitHub at <a href="https://github.com/adilyalcin/Keshif">https://github.com/adilyalcin/Keshif</a>.
 
+<br><br>
 
-| <a href="models.html">Models visualization</a> |
-| <a href="results.html">Results visualization</a> |
+<a href="models.html">Models visualization</a>
+
+<a href="results.html">Results visualization</a>
+
+<br><br>
 
 For more information contact Robert Lipman at NIST.
 </div>
