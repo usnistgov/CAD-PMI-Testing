@@ -1,0 +1,6 @@
+# Site settings
+title: "CAD-PMI-Testing"
+description: "Visualization of CAD-PMI-Testing data using Keshif"
+
+baseurl: "/CAD-PMI-Testing"
+rooturl: ""

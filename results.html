@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>NIST PMI Test Results</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="Keshif/js/d3.4.2.6.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Keshif/keshif.js" charset="utf-8"></script>
+    <script type="text/javascript" src="Keshif/js/papaparse.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="Keshif/keshif.css"/ type="text/css">
+    <link rel="stylesheet" href="Keshif/font-awesome/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="Keshif/demo/js/demo.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="Keshif/demo/css/demo.css" type="text/css">
+
+    <script type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", function(){
+  browser = new kshf.Browser({
+  domID: "#pmi_results",
+  recordName: "NIST PMI Test Results",
+  source: {
+    dirPath: 'https://pages.nist.gov/CAD-PMI-Testing/',
+    fileType: 'csv',
+    tables: "CTC-FTC-PMI-Results",
+  },
+  summaries: [
+    {name: "CAD System", panel: "left", catSortBy: "id"},
+    {name: "Test Case", panel: "left", catSortBy: "id"},
+    {name: "Annotation Type", panel: "left"},
+    {name: "Response", panel: "left", catSplit: ","},
+
+    {name: "PMI Annotation", panel: "middle"},
+
+    {name: "Error Type", panel: "right", catSortBy: "id"},
+    {name: "PMI Error", "panel": "right"}
+  ],
+  leftPanelLabelWidth: 120,
+  middlePanelLabelWidth: 240,
+  rightPanelLabelWidth: 280,
+});
+});
+    </script>
+	</head>
+  <body>
+    <div class="contents">
+    <div id="pmi_results"></div></div>
+  </body>
+</html>

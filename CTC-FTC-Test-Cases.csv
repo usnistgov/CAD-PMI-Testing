@@ -1,0 +1,297 @@
+Test Case,PMI Annotation,Annotation Type
+CTC 3, ∠ | .04 | A,Angularity
+CTC 5, ↗ | .025 | A-B,Circular runout
+CTC 5, ↗ | .025 | A-B,Circular runout
+CTC 5, ↗ | .035 | A-B,Circular runout
+CTC 5, ◎ | .030 | B,Coaxiality
+CTC 1, A,Datum feature
+CTC 3, A,Datum feature
+CTC 4, A,Datum feature
+CTC 5, A,Datum feature
+FTC 6, A,Datum feature
+FTC 8, A,Datum feature
+FTC 9, A,Datum feature
+CTC 1, B,Datum feature
+CTC 3, B,Datum feature
+CTC 4, B,Datum feature
+CTC 5, B,Datum feature
+FTC 6, B,Datum feature
+FTC 8, B,Datum feature
+FTC 9, B,Datum feature
+CTC 1, C,Datum feature
+CTC 3, C,Datum feature
+CTC 4, C,Datum feature
+FTC 6, C,Datum feature
+FTC 8, C,Datum feature
+FTC 9, C,Datum feature
+CTC 2, D,Datum feature
+CTC 3, D,Datum feature
+CTC 4, D,Datum feature
+FTC 6, D,Datum feature
+FTC 8, D,Datum feature
+FTC 9, D,Datum feature
+CTC 2, E,Datum feature
+CTC 3, E,Datum feature
+CTC 4, E,Datum feature
+FTC 6, E,Datum feature
+FTC 8, E,Datum feature
+FTC 9, E,Datum feature
+CTC 2, F,Datum feature
+CTC 3, F,Datum feature
+CTC 4, F,Datum feature
+FTC 6, F,Datum feature
+FTC 8, F,Datum feature
+FTC 9, F,Datum feature
+CTC 2, G,Datum feature
+CTC 4, G,Datum feature
+FTC 8, G,Datum feature
+FTC 9, G,Datum feature
+CTC 2, H,Datum feature
+CTC 4, H,Datum feature
+FTC 8, H,Datum feature
+FTC 9, H,Datum feature
+CTC 2, J,Datum feature
+FTC 8, J,Datum feature
+FTC 8, K,Datum feature
+FTC 8, L,Datum feature
+CTC 2, A1,Datum target
+CTC 2, A2,Datum target
+CTC 2, A3,Datum target
+CTC 2, B1,Datum target
+CTC 2, B2,Datum target
+CTC 2, B3,Datum target
+CTC 2, B4,Datum target
+CTC 2, C1,Datum target
+CTC 5, C1,Datum target
+CTC 5, D1,Datum target
+FTC 6, G1,Datum target
+FTC 6, H1,Datum target
+FTC 6, J1,Datum target
+FTC 6, J2,Datum target
+FTC 6, K1,Datum target
+CTC 2, K1 ∅0.85,Datum target
+FTC 6, K2,Datum target
+FTC 6,-1.106,Dimension
+FTC 6,-1.106,Dimension
+FTC 6, (∅1.000),Dimension
+FTC 6, (∅1.000),Dimension
+FTC 8, (□1.100),Dimension
+FTC 6, (SR.500),Dimension
+FTC 9, .140 ± .008 (Oriented),Dimension
+FTC 6, .500 ±.008,Dimension
+FTC 6, .500 ±.008,Dimension
+CTC 5, ∅10.000 ±.001,Dimension
+CTC 5, [1.250],Dimension
+CTC 5, [1.250],Dimension
+CTC 5, [2.000],Dimension
+CTC 5, [2.000],Dimension
+CTC 4, [75],Dimension
+CTC 4, [∅10],Dimension
+FTC 8, 10X ∅.213 +.005/-.001,Dimension
+FTC 6, 12.00 ±.01,Dimension
+FTC 6, 24X R.125 ±.020,Dimension
+FTC 9, 2X .25 ±.01,Dimension
+FTC 9, 2X 1.00 ±.02 (Oriented),Dimension
+FTC 6, 2X CR.50 ±.02,Dimension
+FTC 9, 2X ∅.156 ±.008,Dimension
+FTC 9, 2X ∅.156 ±.008,Dimension
+FTC 9, 2X ∅.221 ±.008,Dimension
+FTC 9, 2X ∅.234 ±.008,Dimension
+FTC 8, 2X ∅.238 +.005/-.001,Dimension
+FTC 8, 2X ∅.250 +.006/-.001,Dimension
+FTC 9, 2X ∅.315 ±.008 [8 ±0.2],Dimension
+CTC 3, 2X ∅.438 ±.005,Dimension
+FTC 6, 2X ∅.562 ±.008,Dimension
+CTC 2, 2X ∅100 ±0.15,Dimension
+CTC 2, 2X ∅52 ±0.15,Dimension
+FTC 6, 2X S∅1.250 ±.008,Dimension
+CTC 4, 30X ∅14 ±0.1,Dimension
+FTC 9, 3X ∅.156 ±.008,Dimension
+FTC 9, 3X ∅.250 +.003/-.000,Dimension
+FTC 9, 3X ∅.250 +.003/-.000,Dimension
+FTC 9, 3X ∅.281 ±.008,Dimension
+CTC 3, 4X .82 ±.06 (Origin),Dimension
+FTC 9, 4X ∅.250 ±.008,Dimension
+FTC 6, 4X ∅.281 ±.008,Dimension
+FTC 6, 4X ∅.415 ±.008,Dimension
+CTC 3, 4X ∅.625 ±.005,Dimension
+CTC 5, 5.000 ±.008 (ST),Dimension
+CTC 1, 60° ±0.5°,Dimension
+CTC 4, 6X ∅6.65 ±0.12,Dimension
+FTC 8, ∅.228 +.005/-.001,Dimension
+FTC 8, ∅.228 +.005/-.001,Dimension
+FTC 9, ∅.234 ±.008,Dimension
+FTC 9, ∅.234 ±.008,Dimension
+FTC 8, ∅.238 +.005/-.001,Dimension
+FTC 8, ∅.238 +.005/-.001,Dimension
+FTC 8, ∅.242 +.005/-.001,Dimension
+FTC 8, ∅.242 +.005/-.001,Dimension
+FTC 6, ∅.250 ±.008,Dimension
+FTC 6, ∅.250 ±.008,Dimension
+FTC 9, ∅.375 ±.008,Dimension
+CTC 3, ∅.438 ±.005,Dimension
+CTC 3, ∅.438 ±.005,Dimension
+FTC 9, ∅.750 ±.008,Dimension
+CTC 3, ∅1.065 ±.003,Dimension
+CTC 3, ∅1.500 ±.005,Dimension
+CTC 2, ∅12 ±0.05,Dimension
+CTC 2, ∅12 ±0.05,Dimension
+CTC 3, ∅2.00 ±.01,Dimension
+CTC 1, ∅20 +0.05/-0.10,Dimension
+CTC 1, ∅20 +0.10/-0.05,Dimension
+CTC 2, ∅22 ±0.1,Dimension
+CTC 2, ∅22 ±0.1,Dimension
+CTC 1, ∅25 ±0.15,Dimension
+CTC 1, ∅34.8 - 35.2,Dimension
+CTC 1, ∅35 +0.2/0,Dimension
+CTC 1, ∅35 0/-0.2,Dimension
+CTC 1, ∅35.2/34.8,Dimension
+CTC 2, ∅40 ±0.15,Dimension
+CTC 3,-0.75,Dimension
+FTC 6, ▱ |  .01,Flatness
+FTC 6, ▱ |  .01,Flatness
+FTC 6, ▱ |  .01,Flatness
+FTC 9, ▱ |  .01,Flatness
+FTC 8, ▱ |  .015,Flatness
+FTC 8, ▱ |  .015 / L1 ↔ L2,Flatness
+FTC 8, ▱ |  .03(F),Flatness
+CTC 3, ▱ | .005 / .25 X .25,Flatness
+CTC 2, ▱ | 0.05,Flatness
+CTC 1, ▱ | 0.2,Flatness
+FTC 6, 2X ⌴∅.812 ±.020,Dimension - hole
+CTC 4, 30X  ⌵∅20 ±0.3 X 90° ±1°,Dimension - hole
+FTC 9, 4X .03 ±.01 X .03 ±.01,Dimension - hole
+CTC 4, 4X M12 x 1.75 - 6H ↧25 ±0.25,Dimension - hole
+CTC 4, 4X ⌴∅20 ±0.2 ↧20 ±0.2,Dimension - hole
+FTC 6, ⌴∅.40 ±.01,Dimension - hole
+FTC 6, ⌴∅.625 ±.020,Dimension - hole
+FTC 6, ↧.31 ±.02,Dimension - hole
+FTC 6, ↧.50 ±.02,Dimension - hole
+FTC 6, ↧.50 ±.05,Dimension - hole
+FTC 6, ↧.50 ±.05,Dimension - hole
+FTC 6, ↧.56 ±.02,Dimension - hole
+CTC 2, ⌒ | 0.25 | A | B | C,Line profile
+FTC 9, .375 ±.008 X 1.500 ±.012,Dimension - other
+FTC 6, ⌳ 1.00 : 2.00,Dimension - other
+FTC 6, 2X 1.00 : 3.00 ⌲,Dimension - other
+FTC 9, 2X R,Dimension - other
+FTC 9, 4X R,Dimension - other
+FTC 8, // | .015(T) | A,Parallelism
+FTC 8, // | .015(T) | D,Parallelism
+FTC 8, // | .02 | D,Parallelism
+FTC 8, // | .03 | A,Parallelism
+FTC 8, // | .03(F)(T) | A,Parallelism
+FTC 6, ⏊ | .012 | A,Perpendicularity
+FTC 6, ⏊ | .012 | A | B,Perpendicularity
+FTC 9, ⏊ | ∅.010 | A,Perpendicularity
+FTC 9, ⏊ | ∅.010 | A,Perpendicularity
+FTC 9, ⏊ | ∅.010 | A,Perpendicularity
+FTC 8, ⏊ | ∅.015(M)(F) | A,Perpendicularity
+FTC 9, ⏊ | ∅.016 | A,Perpendicularity
+CTC 5, ⏊ | .010 | C,Perpendicularity
+CTC 5, ⏊ | .010 | D,Perpendicularity
+CTC 1, ⏊ | 1.5 | A,Perpendicularity
+CTC 3, ⏊ | ∅.01 | A,Perpendicularity
+CTC 3, ⏊ | ∅.01 | E,Perpendicularity
+CTC 2, ⏊ | ∅0.05 | D,Perpendicularity
+CTC 2, ⏊ | ∅0.1(L) | G,Perpendicularity
+CTC 2, ⏊ | ∅0.25 | K,Perpendicularity
+FTC 9, 3X ⊕ | .020 | A | B | C (Oriented),Position
+FTC 9, 3X ⊕ | .03 | A | G | H (Oriented),Position
+FTC 9, 3X ⊕ | .060 | A | B | C (Oriented),Position
+FTC 9, ⊕ | .01 | A | G | H (Oriented),Position
+FTC 9, ⊕ | .01 | A | G | H (Oriented),Position
+FTC 9, ⊕ | .01 | A | G | H (Oriented),Position
+FTC 9, ⊕ | .02(M) | A | B | C / BOUNDARY (Oriented),Position
+FTC 6, ⊕ | .025 | D | C | J,Position
+FTC 6, ⊕ | .025 | D | C | K,Position
+FTC 9, ⊕ | .030(M) | A | B | C / BOUNDARY (All Around),Position
+FTC 9, ⊕ | .06(M) | A | B | C / BOUNDARY (Oriented),Position
+FTC 9, ⊕ | ∅.010 | A | G | B (Oriented),Position
+FTC 6, ⊕ | ∅.015 | D | H,Position
+FTC 6, ⊕ | ∅.015 | E | A | B,Position
+FTC 6, ⊕ | ∅.015| D | G,Position
+FTC 9, ⊕ | ∅.016 | A | B,Position
+FTC 9, ⊕ | ∅.016(M) | A | B | C,Position
+FTC 6, ⊕ | ∅.02(M) | F / 4X INDIVIDUALLY,Position
+FTC 9, ⊕ | ∅.020 | A | D | B,Position
+FTC 8, ⊕ | ∅.020(M)(F) | A | B,Position
+FTC 8, ⊕ | ∅.023(M)(F) | A | B | C,Position
+FTC 6, ⊕ | ∅.025(M) | A | B | C,Position
+FTC 9, ⊕ | ∅.025(M) | A | D(M) | E(M) / SEP REQT,Position
+FTC 9, ⊕ | ∅.025(M) | A | D(M) | E(M) / SEP REQT,Position
+FTC 6, ⊕ | ∅.025(M) | C | A | B,Position
+FTC 8, ⊕ | ∅.03 | D | B | C,Position
+FTC 9, ⊕ | ∅.030 [0.76] | A | B | C,Position
+FTC 9, ⊕ | ∅.030 | A | B | C,Position
+FTC 9, ⊕ | ∅.040 | A | B | C,Position
+FTC 9, ⊕ | ∅.050 (P).260 | A | B | C / ∅.010 (P).260 | A,Position
+FTC 9, ⊕ | ∅.050 (P).260 | A | B | C / ∅.010 (P).260 | A,Position
+FTC 9, ⊕ | ∅.050 | A | B | C,Position
+FTC 8, ⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 1,Position
+FTC 8, ⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 1,Position
+FTC 8, ⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 2,Position
+FTC 8, ⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 2,Position
+FTC 6, ⊕ | S∅.025 | D | B | C,Position
+CTC 3, ⊕ | .03 | D | B | C (Oriented),Position
+CTC 1, ⊕ | 0.75 | A | B | C,Position
+CTC 1, ⊕ | 0.75 | A | B | C,Position
+FTC 6, ⊕ | ∅.015 | C | A | B,Position
+CTC 3, ⊕ | ∅.02 | A | B,Position
+CTC 3, ⊕ | ∅.05(M) | A | B(M) | C(M),Position
+CTC 3, ⊕ | ∅.05(M) | D | B | C / SWITCH ...,Position
+CTC 3, ⊕ | ∅.06 | D | B | C,Position
+CTC 3, ⊕ | ∅.08 | D | B | C,Position
+CTC 2, ⊕ | ∅0.05 | D | E,Position
+CTC 2, ⊕ | ∅0.15(L) | G | H,Position
+CTC 4, ⊕ | ∅0.35 | A | B | C,Position
+CTC 4, ⊕ | ∅0.75 (P)50 | A | B | C,Position
+CTC 2, ⊕ | ∅1(L) | A | B | C,Position
+CTC 4, ⊕ | ∅1.5 | D | E | F / ∅0.3 | D | E,Position
+CTC 2, ⊕ | ∅1.5(M) | A | B | C,Position
+CTC 5, ◯ | .002,Roundness
+CTC 5, - | .005,Straightness
+FTC 9, ⌓ | .008 | A | G | H,Surface profile
+FTC 8, ⌓ | .015 | D | G(M) (All Around),Surface profile
+FTC 8, ⌓ | .015 | D | H(M)-J(M) (All Around),Surface profile
+FTC 8, ⌓ | .015 | D | K(M) | L(M) (All Around),Surface profile
+FTC 6, ⌓ | .02 | A | B | C,Surface profile
+FTC 6, ⌓ | .02 | A | B | C,Surface profile
+FTC 9, ⌓ | .02 | A | F(M) (All Around),Surface profile
+FTC 8, ⌓ | .035 | D | B | C,Surface profile
+FTC 6, ⌓ | .04 | A | B | C,Surface profile
+FTC 8, ⌓ | .04 | D | E-F (All Around),Surface profile
+FTC 8, ⌓ | .040 | D | B | C / ⌓ | .005 | D | B | C (All Around),Surface profile
+FTC 8, ⌓ | .05 | A | B | C,Surface profile
+FTC 9, ⌓ | .05 | A | B | C (All Around),Surface profile
+FTC 6, ⌓ | .05 | A | B | C (UOS),Surface profile
+FTC 6, ⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile
+FTC 6, ⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile
+FTC 6, ⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile
+FTC 6, ⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile
+FTC 8, ⌓ | .06 | A | B | C,Surface profile
+FTC 8, ⌓ | .06 | A | B | C,Surface profile
+FTC 8, ⌓ | .06 | A | B | C,Surface profile
+FTC 8, ⌓ | .06 | A | B | C (UOS),Surface profile
+CTC 3, ⌓ | .01 / 2 COPLANAR SURFACES,Surface profile
+CTC 3, ⌓ | .03 | A | B | C,Surface profile
+CTC 3, ⌓ | .06 | A | B | C,Surface profile
+CTC 2, ⌓ | 0.1 / 4 COPLANAR SURFACES,Surface profile
+CTC 1, ⌓ | 0.5 | A (All Around),Surface profile
+CTC 4, ⌓ | 0.5 | A | B | C,Surface profile
+CTC 2, ⌓ | 0.5 | D | E | F,Surface profile
+CTC 2, ⌓ | 0.5 | D | E | F(M),Surface profile
+CTC 2, ⌓ | 0.5 | D | E(M) | F,Surface profile
+CTC 2, ⌓ | 0.5 | D | E(M) | F(M),Surface profile
+CTC 2, ⌓ | 0.75 | A | B | C,Surface profile
+CTC 2, ⌓ | 0.8 | G | H | J,Surface profile
+CTC 2, ⌓ | 0.8 | G | H | J(L),Surface profile
+CTC 2, ⌓ | 0.8 | G | H(L) | J,Surface profile
+CTC 2, ⌓ | 0.8 | G | H(L) | J(L),Surface profile
+CTC 1, ⌓ | 1.25 | A | B | C / A ↔ B,Surface profile
+CTC 4, ⌓ | 2 | D | G | H / 0.2 | D / 2 SURFACES,Surface profile
+CTC 2, ⌓ | 2.5 (U)0 | A | B | C,Surface profile
+CTC 2, ⌓ | 2.5 (U)0.5 | A | B | C,Surface profile
+CTC 2, ⌓ | 2.5 (U)2.5 | A | B | C,Surface profile
+CTC 5, ⌰ | .002 | A,Total runout
+CTC 5, ⌰ | .015 | B,Total runout
