@@ -1,7 +1,7 @@
 // turn on social share by default
-var socialShare = false;
+var socialShare = true;
 
-var demoHeader = false;
+var demoHeader = true;
 
 var browser;
 
