@@ -1,3 +1,6 @@
+---
+title: "NIST PMI Annotations"
+---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -22,6 +25,22 @@
 	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title | xml_escape }}"/>
+    {% else %}
+    <title>{{ site.title }}</title>
+    <meta property="og:title" content="{{ site.title | xml_escape }}"/>
+    {% endif %}
+    
+    {% if page.description %}
+    <meta name="description" content="{{ page.description | xml_escape }}"/>
+    <meta property="og:description" content="{{ page.description | xml_escape }}"/>
+    {% else %}
+    <meta name="description" content="{{ site.description | xml_escape }}"/>
+    <meta property="og:description" content="{{ site.description | xml_escape }}"/>
+    {% endif %}
 
     <script type="text/javascript" src="Keshif-master/js/d3.4.2.6.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="Keshif-master/keshif.js" charset="utf-8"></script>
