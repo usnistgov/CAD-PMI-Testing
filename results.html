@@ -20,7 +20,7 @@ title: "NIST PMI Test Results"
 document.addEventListener("DOMContentLoaded", function(){
   browser = new kshf.Browser({
   domID: "#pmi_results",
-  recordName: "NIST PMI Test Results",
+  recordName: "PMI Test Results",
   source: {
     dirPath: '',
     fileType: 'csv',
@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", function(){
     {name: "Test Case", panel: "left", catSortBy: "id"},
     {name: "Annotation Type", panel: "left"},
 
-    {name: "PMI Annotation", panel: "middle"},
+    {name: "PMI Error", panel: "middle"},
 
     {name: "Error Type", panel: "right", catSortBy: "id"},
-    {name: "PMI Error", "panel": "right"}
+    {name: "PMI Annotation", "panel": "right"}
   ],
   leftPanelLabelWidth: 120,
   middlePanelLabelWidth: 240,
