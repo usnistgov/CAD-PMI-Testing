@@ -19,7 +19,7 @@ title: "NIST PMI Annotations"
 document.addEventListener("DOMContentLoaded", function(){
   browser = new kshf.Browser({
   domID: "#demo_Browser",
-  recordName: "NIST PMI Annotations",
+  recordName: "PMI Annotations",
   source: {
     dirPath: '',
     fileType: 'csv',
@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function(){
     {name: "PMI Annotation", panel: "middle"},
   ],
   leftPanelLabelWidth: 101,
-//  middlePanelLabelWidth: 220,
   middlePanelLabelWidth: 280,
 });
 });
@@ -40,7 +39,9 @@ document.addEventListener("DOMContentLoaded", function(){
   <body>
     {% include NISTBodyHeader.html %}
     <div class="contents">
-    <div id="demo_Browser"></div></div>
+      <div id="demo_PageTitle">Test Case Annotations for the PMI Validation and Conformance Testing Project</div>
+      <div id="demo_Browser"></div>
+    </div>
     {% include NISTPagesFooter.html %}
   </body>
 </html>
