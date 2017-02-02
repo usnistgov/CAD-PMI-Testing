@@ -12,13 +12,11 @@ title: "NIST CAD-PMI Testing Visualization"
 
 <br><br>
 
-<a href="models.html">Models visualization</a>
-
-<a href="results.html">Results visualization</a>
-
-<br><br>
-
-For more information contact Robert Lipman at NIST.
+This page is for displaying the test cases and verification testing results in the <A HREF="http://go.usa.gov/mGVm">MBE PMI Validation and Conformance Testing Project</A>.
+<P>
+<a href="models.html">Test Cases</a>
+<BR>
+<a href="results.html">Verification Testing Results</a>
 </div>
 </div>
 </section>
