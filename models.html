@@ -4,7 +4,6 @@ title: "NIST PMI Annotations"
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    {% include NISTHeadContent.html %}
 
     <script type="text/javascript" src="Keshif-master/js/d3.4.2.6.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="Keshif-master/keshif.js" charset="utf-8"></script>
@@ -35,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 });
     </script>
+    {% include NISTHeadContent.html %}
   </head>
   <body>
     {% include NISTBodyHeader.html %}
@@ -70,17 +70,16 @@ document.addEventListener("DOMContentLoaded", function(){
 <P>
 The display below uses <A HREF="http://keshif.me/">Keshif</A>, an open-source, web-based data exploration environment for data analytics.
 <P>
-There are three frames in the environment: Test Case, Annotation Type, and PMI Annotation.  Each Test Case (five CTC and three FTC) has PMI Annotations.  Thumbnails of each 
-Test Case are shown above with links to 2D drawings of the test cases.  Multi-line feature 
-control frames are displayed on one line.  PMI Annotations are
+There are three frames in the environment: Test Case, Annotation Type, and PMI Annotation.  Each Test Case (five CTC and three FTC) has PMI Annotations.  Thumbnails of each
+Test Case are shown above with links to 2D drawings of the test cases.  Multi-line feature control frames are displayed on one line.  PMI Annotations are
 classified by Annotation Type that include dimensions, geometric tolerances, datum features, and datum targets.  Dimensions are split into three categories including dimensions
 related to holes and other dimensions.
 <P>
-Mouse-over a bar highlights that bar in orange and associated data in the other frames.  Clicking on the text label to the left of a bar filters the information in the other frames
-by the selected value.  Multiple values can be selected by clicking the 'Or' to the left of the label.  Data can be filtered out by clicking 'Not' to the left of the label.
-PMI Annotations can also be filtered with a Search string.
-<P>    
-
+Mouse-over a bar highlights that bar in orange and associated data in the other frames.  Clicking on the text label to the left of a bar filters the information in the 
+other frames by the selected value.  Multiple values can be selected by clicking the 'Or' to the left of the label.  Data can be filtered out by clicking 'Not' to the 
+left of the label.  PMI Annotations can also be filtered with a Search string.
+<P>
+</div>
       </div>
       <div id="demo_Browser"></div>
     </div>
