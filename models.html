@@ -13,8 +13,12 @@ title: "NIST PMI Annotations"
 
 <!--    <script type="text/javascript" src="Keshif-master/demo/js/demo.js" charset="utf-8"></script> -->
 <!--    <link rel="stylesheet" href="Keshif-master/demo/css/demo.css" type="text/css"> -->
+  <link rel="stylesheet" href="/CAD-PMI-Testing/static/css/NISTStyle.css id='NISTstyle'">
+	<link rel="stylesheet" href="/CAD-PMI-Testing/static/css/NISTPages.css id='NISTpages'">
 
     <script type="text/javascript">
+document.getElementById("NISTstyle").disabled = true;
+document.getElementById("NISTpages").disabled = true;
 document.addEventListener("DOMContentLoaded", function(){
   browser = new kshf.Browser({
   domID: "#demo_Browser",
@@ -34,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 });
     </script>
-    {% include NISTHeadContent.html %}
   </head>
   <body>
   
