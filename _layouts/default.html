@@ -2,20 +2,28 @@
 <html>
 <head>
 <!--
---> 
-{% include NISTPagesHeader.html %}
+-->
+{% include NISTHeadContent.html %}
 
 </head>
 <body>
- 
-  {{ content }}
+  {% include NISTBodyHeader.html %}
+
+  <div class="section-container content-page">
+    <div class="section-content">
+      <div class="main-content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
   <footer role="contentInfo" class="site-footer">
     <div class="section-container">
-      <div class="section-content">     
+      <div class="section-content">
+        {% include NISTPagesFooter.html %}
       </div>
     </div>
   </footer>
- 
-{% include NISTPagesFooter.html %}
+
 </body>
 </html>
