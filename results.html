@@ -1,5 +1,5 @@
 ---
-title: "NIST PMI Test Results"
+title: "PMI Verification Testing Results | NIST"
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -12,11 +12,7 @@ title: "NIST PMI Test Results"
     <link rel="stylesheet" href="Keshif-master/keshif.css" type="text/css">
     <script src="https://use.fontawesome.com/9042025792.js"></script>
 
-<!--    <script type="text/javascript" src="Keshif-master/demo/js/demo.js" charset="utf-8"></script> -->
-<!--    <link rel="stylesheet" href="Keshif-master/demo/css/demo.css" type="text/css"> -->
-
     <script type="text/javascript">
-
 document.addEventListener("DOMContentLoaded", function(){
   browser = new kshf.Browser({
   domID: "#pmi_results",
@@ -30,22 +26,44 @@ document.addEventListener("DOMContentLoaded", function(){
     {name: "CAD System", panel: "left", catSortBy: "id"},
     {name: "Test Case", panel: "left", catSortBy: "id"},
     {name: "Annotation Type", panel: "left"},
-
     {name: "PMI Error", panel: "middle"},
-
     {name: "Error Type", panel: "right", catSortBy: "id"},
     {name: "PMI Annotation", "panel": "right"}
   ],
   leftPanelLabelWidth: 120,
-  middlePanelLabelWidth: 240,
-  rightPanelLabelWidth: 280,
+  middlePanelLabelWidth: 300,
+  rightPanelLabelWidth: 320,
 });
 });
     </script>
   </head>
   <body>
 	  {% include NISTBodyHeader.html %}
-    <div class="contents">
+    <div id="main" class="nist-main">
+<H1><A HREF="http://go.usa.gov/mGVm" target="blank">MBE PMI Validation and Conformance Testing Project</A></H1>
+<H2>PMI Verification Testing Results Browser</H2>
+Before using the testing results browser below you should be familiar with the <A HREF="http://go.usa.gov/mGVm" target="blank">MBE PMI Validation and Conformance Testing Project</A>
+and the verification testing reports.
+<ul><li><a href="/node/763791">Measuring the PMI Modeling Capability in CAD Systems: Report 1 - Combined Test Case Verification</a></li>
+<li><a href="/node/763786">Measuring the PMI Modeling Capability in CAD Systems: Report 3 - Fully-Toleranced Test Case Verification</a></li>
+</ul> 
+The browser provides supplemental information for the high-level verification testing results documented in the reports 
+and is not intended to be a first source of information for the results.
+<P>
+<H3>Browser</H3>
+The browser below uses the <A HREF="https://github.com/adilyalcin/Keshif" target="blank">open-source version</A> of <A HREF="http://keshif.me/" target="blank">Keshif</A>, a web-based data exploration environment for data analytics.
+There are six frames in the Keshif environment: <strong>CAD System</strong>, <strong>Test Case</strong>, <strong>Annotation Type</strong>, <strong>PMI Error</strong>, <strong>Error Type</strong>, and <strong>PMI Annotation</strong>.  
+<OL>
+<LI>Test Case, Annotation Type, and PMI Annotation are defined in the <A HREF="https://pages.nist.gov/CAD-PMI-Testing/models.html" target="blank">test case browser</a>.   
+<LI>
+</OL>
+<P>
+<H3>How to use Keshif data exploration environment</H3>
+Mousing over a text label (e.g. CAD B (2015), Position, C1) highlights the bar in orange and associated data in the other frames.  This shows the relationships between the data.
+Clicking on the text label filters information in all frames by the selected value.  Clicking on a selected value deselects it.  After one text label has been selected,
+more can be selected by clicking 'Or' to the left of a label.
+Data can be filtered out by clicking 'Not' to the left of a label.  PMI Annotations can also be filtered with a Search string.
+<P>
     <div id="pmi_results"></div>
     </div>
     {% include NISTPagesFooter.html %}
