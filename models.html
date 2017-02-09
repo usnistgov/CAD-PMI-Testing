@@ -38,8 +38,11 @@ document.addEventListener("DOMContentLoaded", function(){
     {% include NISTBodyHeader.html %}
 
     <div id="main" class="nist-main">
-<H1><A HREF="http://go.usa.gov/mGVm" target="blank">MBE PMI Validation and Conformance Testing Project</A></H1>
-<H2>Browse the Test Case PMI Annotations</H2>
+<H1>MBE PMI Validation and Conformance Testing Project</H1>
+<H2>Test Case PMI Annotation Browser</H2>
+Before using the test case browser below you should be familiar with the test cases in the
+<A HREF="http://go.usa.gov/mGVm" target="blank">MBE PMI Validation and Conformance Testing Project</A>.  Thumbnails of each Test Case are shown below with links to 2D drawings.  
+<P>
 <table style="width:100%"><tbody><tr>
 <td align="center"><a href="https://www.nist.gov/file/317856">CTC 1</a>
 <br><img alt="PMI Validation Complex Test Case 1" src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2016/09/08/ctc-1_1.jpg" />
@@ -67,10 +70,11 @@ document.addEventListener("DOMContentLoaded", function(){
 </td>
 </tr></tbody></table>
 <P>
+<H3>Test case browser</H3>
 The display below uses the <A HREF="https://github.com/adilyalcin/Keshif" target="blank">open-source version</A> of <A HREF="http://keshif.me/" target="blank">Keshif</A>, a web-based data exploration environment for data analytics.
 There are three frames in the Keshif environment: <strong>Test Case</strong>, <strong>Annotation Type</strong>, and <strong>PMI Annotation</strong>.  
 <OL>
-<LI>Each <strong>Test Case</strong> (five CTC and three FTC) has many PMI Annotations.  Thumbnails of each Test Case are shown above with links to 2D drawings.  
+<LI>Each <strong>Test Case</strong> (five CTC and three FTC) has many PMI Annotations.  
 <LI><strong>Annotation Type</strong> classifies PMI Annotation by dimensions, geometric tolerances, datum features, and datum targets.  Dimensions are split into three categories including dimensions
 related to holes (counterbore, countersink, depth) and other dimensions (radius, slope, taper, slot).
 <LI><strong>PMI Annotations</strong> with multi-line feature control frames (FCF) are displayed on one line.  A "|" delimits the sections of a FCF.  
@@ -82,6 +86,8 @@ Mousing over a text label (e.g. FTC 6, Position, C1) highlights the bar in orang
 Clicking on the text label filters information in all frames by the selected value.  Clicking on a selected value deselects it.  After one text label has been selected,
 more can be selected by clicking 'Or' to the left of a label.
 Data can be filtered out by clicking 'Not' to the left of a label.  PMI Annotations can also be filtered with a Search string.
+<P>
+Happy Exploring!
 <P>
       <div id="PMI_Browser"></div>
 </div>
