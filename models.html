@@ -41,56 +41,53 @@ document.addEventListener("DOMContentLoaded", function(){
 <H1>MBE PMI Validation and Conformance Testing Project</H1>
 <H2>Test Case PMI Annotation Browser</H2>
 Before using the test case browser below you should be familiar with the test cases in the
-<A HREF="http://go.usa.gov/mGVm" target="blank">MBE PMI Validation and Conformance Testing Project</A>.  Thumbnails of each Test Case are shown below with links to 2D drawings.  
+<A HREF="http://go.usa.gov/mGVm" target="blank">MBE PMI Validation and Conformance Testing Project</A>.  Thumbnails of each Test Case are shown below with links to 2D drawings.
+The browser lets you explore in detail the distribution of PMI annotations in the test cases.  For example, you can find the test case with the only line profile tolerance (CTC 2)
+or the only parallelism tolerances (FTC 8) or with basic dimensions (CTC 4 and 5) or without any surface or position tolerances (CTC 5).
 <P>
 <table style="width:100%"><tbody><tr>
-<td align="center"><a href="https://www.nist.gov/file/317856">CTC 1</a>
+<td align="center"><a href="https://www.nist.gov/file/317856" target="blank">CTC 1</a>
 <br><img alt="PMI Validation Complex Test Case 1" src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2016/09/08/ctc-1_1.jpg" />
 </td>
-<td align="center"><a href="https://www.nist.gov/file/317861">CTC 2</a> 
+<td align="center"><a href="https://www.nist.gov/file/317861" target="blank">CTC 2</a> 
 <br><img alt="PMI Validation Complex Test Case 2" src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2016/09/08/ctc-2_1.jpg" />
 </td>
-<td align="center"><a href="https://www.nist.gov/file/317866">CTC 3</a> 
+<td align="center"><a href="https://www.nist.gov/file/317866" target="blank">CTC 3</a> 
 <br><img alt="PMI Validation Complex Test Case 3" src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2016/09/08/ctc-3_1.jpg" />
 </td>
-<td align="center"><a href="https://www.nist.gov/file/317876">CTC 4 </a> 
+<td align="center"><a href="https://www.nist.gov/file/317876" target="blank">CTC 4</a> 
 <br><img alt="PMI Validation Complex Test Case 4" src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2016/09/08/ctc-4_1.jpg" />
 </td>
-<td align="center"><a href="https://www.nist.gov/file/317881">CTC 5</a> 
+<td align="center"><a href="https://www.nist.gov/file/317881" target="blank">CTC 5</a> 
 <br><img alt="PMI Validation Complex Test Case 5" src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2016/09/08/ctc-5_1.jpg" />
 </td>
-<td align="center"><a href="https://www.nist.gov/file/317886">FTC 6</a> 
+<td align="center"><a href="https://www.nist.gov/file/317886" target="blank">FTC 6</a> 
 <br><img alt="PMI Validation Fully-toleranced Test Case 6" src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2016/09/08/ftc-06.jpg" />
 </td>
-<td align="center"><a href="https://www.nist.gov/file/317896">FTC 8</a> 
+<td align="center"><a href="https://www.nist.gov/file/317896" target="blank">FTC 8</a> 
 <br><img alt="PMI Validation Fully-toleranced Test Case 8" src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2016/09/08/ftc-08.jpg" />
 </td>
-<td align="center"><a href="https://www.nist.gov/file/317901">FTC 9</a> 
+<td align="center"><a href="https://www.nist.gov/file/317901" target="blank">FTC 9</a> 
 <br><img alt="PMI Validation Fully-toleranced Test Case 9" src="https://www.nist.gov/sites/default/files/styles/220_x_220_limit/public/images/2016/09/08/ftc-09.jpg" />
 </td>
 </tr></tbody></table>
 <P>
-<H3>Browser</H3>
-The browser below uses the <A HREF="https://github.com/adilyalcin/Keshif" target="blank">open-source version</A> of <A HREF="http://keshif.me/" target="blank">Keshif</A>, a web-based data exploration environment for data analytics.
+The browser uses the <A HREF="https://github.com/adilyalcin/Keshif" target="blank">open-source version</A> of <A HREF="http://keshif.me/" target="blank">Keshif</A>, a web-based data exploration environment for data analytics.
 There are three frames in the Keshif environment: <strong>Test Case</strong>, <strong>Annotation Type</strong>, and <strong>PMI Annotation</strong>.  
 <OL>
-<LI>Each <strong>Test Case</strong> (five CTC and three FTC) has many PMI Annotations.  
+<LI><strong>Test Cases</strong> (five CTC and three FTC) contain 297 PMI Annotations.  
 <LI><strong>Annotation Type</strong> classifies PMI Annotation by dimensions, geometric tolerances, datum features, and datum targets.  Dimensions are split into three categories including dimensions
 related to holes (counterbore, countersink, depth) and other dimensions (radius, slope, taper, slot).
 <LI><strong>PMI Annotations</strong> with multi-line feature control frames (FCF) are displayed on one line.  A "|" delimits the sections of a FCF.  
 A "/" delimits mulitple lines of a FCF.   
 </OL>
 <P>
-<H3>How to use Keshif data exploration environment</H3>
-Mousing over a text label (e.g. FTC 6, Position, C1) highlights the bar in orange and associated data in the other frames.  This shows the relationships between the data.
+Mousing over a text label (e.g. FTC 6 or Position or C1) highlights the bar in orange and associated data in the other frames showing the relationships between the data.
 Clicking on the text label filters information in all frames by the selected value.  Clicking on a selected value deselects it.  After one text label has been selected,
-more can be selected by clicking 'Or' to the left of a label.
-Data can be filtered out by clicking 'Not' to the left of a label.  PMI Annotations can also be filtered with a Search string.
+more can be selected by clicking 'Or' to the left of a label.  Data can be filtered out by clicking 'Not' to the left of a label.  PMI Annotations can also be filtered with a Search string.
 <P>
-Happy Exploring!
-<P>
-      <div id="PMI_Browser"></div>
 </div>
+      <div id="PMI_Browser"></div>
     {% include NISTPagesFooter.html %}
   </body>
 </html>

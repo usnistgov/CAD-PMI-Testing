@@ -16,7 +16,7 @@ title: "PMI Verification Testing Results | NIST"
 document.addEventListener("DOMContentLoaded", function(){
   browser = new kshf.Browser({
   domID: "#pmi_results",
-  recordName: "PMI Test Results",
+  recordName: "PMI Errors",
   source: {
     dirPath: '',
     fileType: 'csv',
@@ -40,32 +40,42 @@ document.addEventListener("DOMContentLoaded", function(){
   <body>
 	  {% include NISTBodyHeader.html %}
     <div id="main" class="nist-main">
-<H1><A HREF="http://go.usa.gov/mGVm" target="blank">MBE PMI Validation and Conformance Testing Project</A></H1>
+<H1>MBE PMI Validation and Conformance Testing Project</H1>
 <H2>PMI Verification Testing Results Browser</H2>
 Before using the testing results browser below you should be familiar with the <A HREF="http://go.usa.gov/mGVm" target="blank">MBE PMI Validation and Conformance Testing Project</A>
 and the verification testing reports.
-<ul><li><a href="/node/763791">Measuring the PMI Modeling Capability in CAD Systems: Report 1 - Combined Test Case Verification</a></li>
-<li><a href="/node/763786">Measuring the PMI Modeling Capability in CAD Systems: Report 3 - Fully-Toleranced Test Case Verification</a></li>
+<ul><li><a href="https://www.nist.gov/node/763791" target="blank">Measuring the PMI Modeling Capability in CAD Systems: Report 1 - Combined Test Case Verification</a></li>
+<li><a href="https://www.nist.gov/node/763786" target="blank">Measuring the PMI Modeling Capability in CAD Systems: Report 3 - Fully-Toleranced Test Case Verification</a></li>
 </ul> 
-The browser provides supplemental information for the high-level verification testing results documented in the reports 
-and is not intended to be a first source of information for the results.
+The browser lets you explore the distribution of 412 PMI errors that went into producing the high-level verification testing results documented in the reports.
+It is not intended to be the primary source of information for the results.  With the browser you can find the CAD system with the most PMI errors related to datum targets (CAD C 2012) or 
+which CAD system and annotation type has the most PMI errors where a dimension has an extraneous space (CAD B and dimensions) or which annotation type has the most graphic error
+types (datum features).
 <P>
-<H3>Browser</H3>
 The browser below uses the <A HREF="https://github.com/adilyalcin/Keshif" target="blank">open-source version</A> of <A HREF="http://keshif.me/" target="blank">Keshif</A>, a web-based data exploration environment for data analytics.
 There are six frames in the Keshif environment: <strong>CAD System</strong>, <strong>Test Case</strong>, <strong>Annotation Type</strong>, <strong>PMI Error</strong>, <strong>Error Type</strong>, and <strong>PMI Annotation</strong>.  
 <OL>
 <LI>Test Case, Annotation Type, and PMI Annotation are defined in the <A HREF="https://pages.nist.gov/CAD-PMI-Testing/models.html" target="blank">test case browser</a>.   
-<LI>
+<LI><strong>CAD System</strong> are the four CAD systems (CATIA, Creo, NX, SolidWorks) that were tested.  The testing results only refer to the CAD systems as A, B, C, 
+and D.  The CTC are associated with the 2012 versions of the CAD systems and the FTC are associated with the 2015 versions of the CAD systems.
+<LI><strong>PMI Errors</strong> are all of the annotation errors for PMI representation and PMI presentation found in the CAD system verification testing.  The following 
+table is a key to the abbreviations.  Specific examples of the errors are found in the reports.
+<font size=-1>
+<P><table border=1 cellpadding=2 cellspacing=0>
+<tr><td>DFS</td><td>Datum feature symbol</td><td>DRF</td><td>Datum reference frame</td><td>FCF</td><td>Feature control frame</td></tr>
+<tr><td>DIM</td><td>Dimension</td><td>DTS</td><td>Datum target symbol</td><td>SG</td><td>Supplemental geometry</td></tr>
+</table>
+</font>
+<P>
+<LI><strong>Error Types</strong> classifies the PMI errors into three semantic annotation and six graphic annotation error categories.
 </OL>
 <P>
-<H3>How to use Keshif data exploration environment</H3>
-Mousing over a text label (e.g. CAD B (2015), Position, C1) highlights the bar in orange and associated data in the other frames.  This shows the relationships between the data.
+Mousing over a text label (e.g. CAD B (2015) or FCF text is extraneous or Annotation layout) highlights the bar in orange and associated data in the other frames showing the relationships between the data.
 Clicking on the text label filters information in all frames by the selected value.  Clicking on a selected value deselects it.  After one text label has been selected,
-more can be selected by clicking 'Or' to the left of a label.
-Data can be filtered out by clicking 'Not' to the left of a label.  PMI Annotations can also be filtered with a Search string.
+more can be selected by clicking 'Or' to the left of a label.  Data can be filtered out by clicking 'Not' to the left of a label.  PMI Errors and PMI Annotations can also be filtered with a Search string.
 <P>
-    <div id="pmi_results"></div>
     </div>
+    <div id="pmi_results"></div>
     {% include NISTPagesFooter.html %}
   </body>
 </html>
