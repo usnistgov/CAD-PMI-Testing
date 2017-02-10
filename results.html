@@ -48,12 +48,15 @@ and the verification testing reports.
 <li><a href="https://www.nist.gov/node/763786" target="blank">Measuring the PMI Modeling Capability in CAD Systems: Report 3 - Fully-Toleranced Test Case Verification</a></li>
 </ul> 
 The browser lets you explore the distribution of 412 PMI errors that went into producing the high-level verification testing results documented in the reports.
-It is not intended to be the primary source of information for the results.  With the browser you can find the CAD system with the most PMI errors related to datum targets (CAD C 2012) or 
-which CAD system and annotation type has the most PMI errors where a dimension has an extraneous space (CAD B and dimensions) or which annotation type has the most graphic error
-types (datum features).
+For example, you can find the CAD system with the most PMI errors related to datum targets (CAD C 2012) or 
+which CAD system has the most PMI errors where a dimension has an extraneous space (CAD B) or which annotation type has the most graphic error
+types (datum features) or which FTC has the least semantic annotation error types (FTC 8).
 <P>
-The browser below uses the <A HREF="https://github.com/adilyalcin/Keshif" target="blank">open-source version</A> of <A HREF="http://keshif.me/" target="blank">Keshif</A>, a web-based data exploration environment for data analytics.
-There are six frames in the Keshif environment: <strong>CAD System</strong>, <strong>Test Case</strong>, <strong>Annotation Type</strong>, <strong>PMI Error</strong>, <strong>Error Type</strong>, and <strong>PMI Annotation</strong>.  
+The verification testing results related to the test case PMI were generated based on the 2012 and 2015 versions of the CAD systems.  The PMI errors identified for the 
+semantic and graphic representation of PMI in each CAD system may have been (and hopefully have been) resolved since the original testing took place.
+<P>
+The browser uses the <A HREF="https://github.com/adilyalcin/Keshif" target="blank">open-source version</A> of <A HREF="http://keshif.me/" target="blank">Keshif</A>, a web-based data exploration environment for data analytics.
+There are six frames in the browser: <strong>CAD System</strong>, <strong>Test Case</strong>, <strong>Annotation Type</strong>, <strong>PMI Error</strong>, <strong>Error Type</strong>, and <strong>PMI Annotation</strong>.  
 <OL>
 <LI>Test Case, Annotation Type, and PMI Annotation are defined in the <A HREF="https://pages.nist.gov/CAD-PMI-Testing/models.html" target="blank">test case browser</a>.   
 <LI><strong>CAD System</strong> are the four CAD systems (CATIA, Creo, NX, SolidWorks) that were tested.  The testing results only refer to the CAD systems as A, B, C, 
@@ -68,6 +71,7 @@ table is a key to the abbreviations.  Specific examples of the errors are found 
 </font>
 <P>
 <LI><strong>Error Types</strong> classifies the PMI errors into three semantic annotation and six graphic annotation error categories.
+Specific examples of the error types are found in the reports.
 </OL>
 <P>
 Mousing over a text label (e.g. CAD B (2015) or FCF text is extraneous or Annotation layout) highlights the bar in orange and associated data in the other frames showing the relationships between the data.
