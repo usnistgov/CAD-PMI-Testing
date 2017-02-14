@@ -5,7 +5,7 @@ title: "NIST CAD Models - PMI Verification Testing Results Browser"
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     {% include NISTHeadContent.html %}
-    <link rel="stylesheet" href="nist-header-master/css/nist_base.css" type="text/css">
+    <!link rel="stylesheet" href="nist-header-master/css/nist_base.css" type="text/css">
 
     <script type="text/javascript" src="Keshif-master/js/d3.4.2.6.min.js" charset="utf-8"></script>
     <script type="text/javascript" src="Keshif-master/keshif.js" charset="utf-8"></script>
@@ -48,27 +48,28 @@ and the verification testing reports.
 <ul><li><a href="https://www.nist.gov/node/763791" target="blank">Measuring the PMI Modeling Capability in CAD Systems: Report 1 - Combined Test Case Verification</a></li>
 <li><a href="https://www.nist.gov/node/763786" target="blank">Measuring the PMI Modeling Capability in CAD Systems: Report 3 - Fully-Toleranced Test Case Verification</a></li>
 </ul> 
-The browser lets you explore the distribution of 412 PMI errors that went into producing the high-level verification testing results documented in the
+<P>The browser lets you explore the distribution of 412 PMI errors that went into producing the high-level verification testing results documented in the
 reports.  For example, you can find the CAD system with the most PMI errors related to datum targets (CAD C 2012) or 
 which CAD system has the most PMI errors where a dimension has an extraneous space (CAD B) or which annotation type has the most graphic error
-types (datum features) or which FTC has the least semantic annotation error types (FTC 8).
-<P>
-The verification testing results related to the test case PMI were generated based on the 2012 and 2015 versions of the CAD systems.  The PMI errors identified for the 
-semantic and graphic representation of PMI in each CAD system may have been (and hopefully have been) resolved since the original testing took place.  
-<P>
+types (datum features) or which FTC has the least semantic annotation error types (FTC 8).</P>
+<H3>Disclaimer</H3>
+<P>The verification testing results related to the test case PMI were generated based on the 2012 and 2015 versions of the CAD systems (CATIA, SolidWorks, Creo, NX).
 The results show that the FTC and thus the 2015 CAD systems have more PMI errors.  This is because there are more 
 <A HREF="https://pages.nist.gov/CAD-PMI-Testing/models.html" target="blank">PMI annotations</A> in the FTC (2015 CAD systems) than in the CTC (2012 CAD systems) 
 and that many of the PMI annotations in the FTC are more complex, and less likely to be fully supported, than in the CTC.  The CTC and FTC were not
-developed to make a comparison between the different versions of the CAD systems.  No conclusion can be made that one version (2012 or 2015) of a CAD system is better or worse than the other version.
+developed to make a comparison between the different versions of the CAD systems.  No conclusion can be made that one version (2012 or 2015) of a CAD system is better 
+or worse than the other version.  The PMI errors identified for the 
+semantic and graphic representation of PMI in each CAD system may have been (and hopefully have been) resolved since the original testing took place.</P> 
 <H3>Browser</H3>
 The browser uses the <A HREF="https://github.com/adilyalcin/Keshif" target="blank">open-source version</A> of <A HREF="http://keshif.me/" target="blank">Keshif</A>, a web-based data exploration environment for data analytics.
 There are six frames in the browser:
+<P>
 <UL>
 <LI><strong>Test Case</strong>, <strong>Annotation Type</strong>, and <strong>PMI Annotation</strong> are defined in the <A HREF="https://pages.nist.gov/CAD-PMI-Testing/models.html" target="blank">test case browser</a>.   
-<LI><strong>CAD System</strong> are the four CAD systems (CATIA, Creo, NX, SolidWorks) that were tested.  The testing results only refer to the CAD systems as A, B, C, 
+<LI><strong>CAD System</strong> are the four CAD systems (CATIA, SolidWorks, Creo, NX) that were tested.  The testing results only refer to the CAD systems as A, B, C, 
 and D.  The CTC are associated with the 2012 versions of the CAD systems and the FTC are associated with the 2015 versions of the CAD systems.
 <LI><strong>PMI Errors</strong> are the 412 annotation errors for PMI representation and PMI presentation found in the CAD system verification testing.  Specific examples of the 
-errors are found in the reports.  The following table is a key to the abbreviations.
+errors are found in the reports.  The table is a key to the abbreviations.
 <P><table border=1 cellpadding=4 cellspacing=0>
 <tr><td>DFS</td><td>Datum feature symbol</td><td>DRF</td><td>Datum reference frame</td><td>FCF</td><td>Feature control frame</td></tr><tr>
 <td>DIM</td><td>Dimension</td><td>DTS</td><td>Datum target symbol</td><td>SG</td><td>Supplemental geometry</td></tr>
