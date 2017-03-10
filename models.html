@@ -79,10 +79,13 @@ There are three frames in the browser:
 <P>
 <OL>
 <LI><strong>Test Cases</strong> (five CTC and three FTC) contain 297 PMI Annotations.  
-<LI><strong>Annotation Type</strong> classifies PMI Annotation by dimensions, geometric tolerances, datum features, and datum targets.  Dimensions are split into three categories including dimensions
-related to holes (counterbore, countersink, depth) and other dimensions (radius, slope, taper, slot).
+<LI><strong>Annotation Type</strong> classifies PMI Annotation by dimensions, geometric tolerances, datum features, and datum targets.  Dimensions are split into
+three categories including dimensions related to holes (counterbore, countersink, depth) and other dimensions (radius, slope, taper, slot).
 <LI><strong>PMI Annotations</strong> with multi-line feature control frames (FCF) are displayed on one line.  A "|" delimits the sections of a FCF.  
-A "/" delimits mulitple lines of a FCF.   
+A "/" delimits mulitple lines of a FCF.  PMI annotation tolerance zone and FCF modifiers such as a maximum material modifier (letter M in a circle)
+appear as the letter bracketed by parentheses, e.g., (M).  Tolerances or dimensions with “(Oriented)” after the FCF means that the tolerance or dimension 
+has a specific orientation in a test case drawing.  Other modifiers similar modifiers are: Origin, All Around, and UOS.  UOS means “Unless Otherwise Specified” and
+is usually associated with an overall surface profile in the notes.        
 </OL>
 <P>
 Mousing over a text label (e.g. FTC 6 or Position or C1) highlights the bar in orange and associated data in the other frames showing the relationships between the data.
