@@ -1,297 +1,422 @@
 Test Case,PMI Annotation,Annotation Type
-CTC 3, ∠ | .04 | A,Angularity
-CTC 5, ↗ | .025 | A-B,Circular runout
-CTC 5, ↗ | .025 | A-B,Circular runout
-CTC 5, ↗ | .035 | A-B,Circular runout
-CTC 5, ◎ | .030 | B,Coaxiality
-CTC 1, A,Datum feature
-CTC 3, A,Datum feature
-CTC 4, A,Datum feature
-CTC 5, A,Datum feature
-FTC 6, A,Datum feature
-FTC 8, A,Datum feature
-FTC 9, A,Datum feature
-CTC 1, B,Datum feature
-CTC 3, B,Datum feature
-CTC 4, B,Datum feature
-CTC 5, B,Datum feature
-FTC 6, B,Datum feature
-FTC 8, B,Datum feature
-FTC 9, B,Datum feature
-CTC 1, C,Datum feature
-CTC 3, C,Datum feature
-CTC 4, C,Datum feature
-FTC 6, C,Datum feature
-FTC 8, C,Datum feature
-FTC 9, C,Datum feature
-CTC 2, D,Datum feature
-CTC 3, D,Datum feature
-CTC 4, D,Datum feature
-FTC 6, D,Datum feature
-FTC 8, D,Datum feature
-FTC 9, D,Datum feature
-CTC 2, E,Datum feature
-CTC 3, E,Datum feature
-CTC 4, E,Datum feature
-FTC 6, E,Datum feature
-FTC 8, E,Datum feature
-FTC 9, E,Datum feature
-CTC 2, F,Datum feature
-CTC 3, F,Datum feature
-CTC 4, F,Datum feature
-FTC 6, F,Datum feature
-FTC 8, F,Datum feature
-FTC 9, F,Datum feature
-CTC 2, G,Datum feature
-CTC 4, G,Datum feature
-FTC 8, G,Datum feature
-FTC 9, G,Datum feature
-CTC 2, H,Datum feature
-CTC 4, H,Datum feature
-FTC 8, H,Datum feature
-FTC 9, H,Datum feature
-CTC 2, J,Datum feature
-FTC 8, J,Datum feature
-FTC 8, K,Datum feature
-FTC 8, L,Datum feature
-CTC 2, A1,Datum target
-CTC 2, A2,Datum target
-CTC 2, A3,Datum target
-CTC 2, B1,Datum target
-CTC 2, B2,Datum target
-CTC 2, B3,Datum target
-CTC 2, B4,Datum target
-CTC 2, C1,Datum target
-CTC 5, C1,Datum target
-CTC 5, D1,Datum target
-FTC 6, G1,Datum target
-FTC 6, H1,Datum target
-FTC 6, J1,Datum target
-FTC 6, J2,Datum target
-FTC 6, K1,Datum target
-CTC 2, K1 ∅0.85,Datum target
-FTC 6, K2,Datum target
-FTC 6,-1.106,Dimension
-FTC 6,-1.106,Dimension
-FTC 6, (∅1.000),Dimension
-FTC 6, (∅1.000),Dimension
-FTC 8, (□1.100),Dimension
-FTC 6, (SR.500),Dimension
-FTC 9, .140 ± .008 (Oriented),Dimension
-FTC 6, .500 ±.008,Dimension
-FTC 6, .500 ±.008,Dimension
-CTC 5, ∅10.000 ±.001,Dimension
-CTC 5, [1.250],Dimension
-CTC 5, [1.250],Dimension
-CTC 5, [2.000],Dimension
-CTC 5, [2.000],Dimension
-CTC 4, [75],Dimension
-CTC 4, [∅10],Dimension
-FTC 8, 10X ∅.213 +.005/-.001,Dimension
-FTC 6, 12.00 ±.01,Dimension
-FTC 6, 24X R.125 ±.020,Dimension
-FTC 9, 2X .25 ±.01,Dimension
-FTC 9, 2X 1.00 ±.02 (Oriented),Dimension
-FTC 6, 2X CR.50 ±.02,Dimension
-FTC 9, 2X ∅.156 ±.008,Dimension
-FTC 9, 2X ∅.156 ±.008,Dimension
-FTC 9, 2X ∅.221 ±.008,Dimension
-FTC 9, 2X ∅.234 ±.008,Dimension
-FTC 8, 2X ∅.238 +.005/-.001,Dimension
-FTC 8, 2X ∅.250 +.006/-.001,Dimension
-FTC 9, 2X ∅.315 ±.008 [8 ±0.2],Dimension
-CTC 3, 2X ∅.438 ±.005,Dimension
-FTC 6, 2X ∅.562 ±.008,Dimension
-CTC 2, 2X ∅100 ±0.15,Dimension
-CTC 2, 2X ∅52 ±0.15,Dimension
-FTC 6, 2X S∅1.250 ±.008,Dimension
-CTC 4, 30X ∅14 ±0.1,Dimension
-FTC 9, 3X ∅.156 ±.008,Dimension
-FTC 9, 3X ∅.250 +.003/-.000,Dimension
-FTC 9, 3X ∅.250 +.003/-.000,Dimension
-FTC 9, 3X ∅.281 ±.008,Dimension
-CTC 3, 4X .82 ±.06 (Origin),Dimension
-FTC 9, 4X ∅.250 ±.008,Dimension
-FTC 6, 4X ∅.281 ±.008,Dimension
-FTC 6, 4X ∅.415 ±.008,Dimension
-CTC 3, 4X ∅.625 ±.005,Dimension
-CTC 5, 5.000 ±.008 (ST),Dimension
-CTC 1, 60° ±0.5°,Dimension
-CTC 4, 6X ∅6.65 ±0.12,Dimension
-FTC 8, ∅.228 +.005/-.001,Dimension
-FTC 8, ∅.228 +.005/-.001,Dimension
-FTC 9, ∅.234 ±.008,Dimension
-FTC 9, ∅.234 ±.008,Dimension
-FTC 8, ∅.238 +.005/-.001,Dimension
-FTC 8, ∅.238 +.005/-.001,Dimension
-FTC 8, ∅.242 +.005/-.001,Dimension
-FTC 8, ∅.242 +.005/-.001,Dimension
-FTC 6, ∅.250 ±.008,Dimension
-FTC 6, ∅.250 ±.008,Dimension
-FTC 9, ∅.375 ±.008,Dimension
-CTC 3, ∅.438 ±.005,Dimension
-CTC 3, ∅.438 ±.005,Dimension
-FTC 9, ∅.750 ±.008,Dimension
-CTC 3, ∅1.065 ±.003,Dimension
-CTC 3, ∅1.500 ±.005,Dimension
-CTC 2, ∅12 ±0.05,Dimension
-CTC 2, ∅12 ±0.05,Dimension
-CTC 3, ∅2.00 ±.01,Dimension
-CTC 1, ∅20 +0.05/-0.10,Dimension
-CTC 1, ∅20 +0.10/-0.05,Dimension
-CTC 2, ∅22 ±0.1,Dimension
-CTC 2, ∅22 ±0.1,Dimension
-CTC 1, ∅25 ±0.15,Dimension
-CTC 1, ∅34.8 - 35.2,Dimension
-CTC 1, ∅35 +0.2/0,Dimension
-CTC 1, ∅35 0/-0.2,Dimension
-CTC 1, ∅35.2/34.8,Dimension
-CTC 2, ∅40 ±0.15,Dimension
-CTC 3,-0.75,Dimension
-FTC 6, ▱ |  .01,Flatness
-FTC 6, ▱ |  .01,Flatness
-FTC 6, ▱ |  .01,Flatness
-FTC 9, ▱ |  .01,Flatness
-FTC 8, ▱ |  .015,Flatness
-FTC 8, ▱ |  .015 / L1 ↔ L2,Flatness
-FTC 8, ▱ |  .03(F),Flatness
-CTC 3, ▱ | .005 / .25 X .25,Flatness
-CTC 2, ▱ | 0.05,Flatness
-CTC 1, ▱ | 0.2,Flatness
-FTC 6, 2X ⌴∅.812 ±.020,Dimension - hole
-CTC 4, 30X  ⌵∅20 ±0.3 X 90° ±1°,Dimension - hole
-FTC 9, 4X .03 ±.01 X .03 ±.01,Dimension - hole
-CTC 4, 4X M12 x 1.75 - 6H ↧25 ±0.25,Dimension - hole
-CTC 4, 4X ⌴∅20 ±0.2 ↧20 ±0.2,Dimension - hole
-FTC 6, ⌴∅.40 ±.01,Dimension - hole
-FTC 6, ⌴∅.625 ±.020,Dimension - hole
-FTC 6, ↧.31 ±.02,Dimension - hole
-FTC 6, ↧.50 ±.02,Dimension - hole
-FTC 6, ↧.50 ±.05,Dimension - hole
-FTC 6, ↧.50 ±.05,Dimension - hole
-FTC 6, ↧.56 ±.02,Dimension - hole
-CTC 2, ⌒ | 0.25 | A | B | C,Line profile
-FTC 9, .375 ±.008 X 1.500 ±.012,Dimension - other
-FTC 6, ⌳ 1.00 : 2.00,Dimension - other
-FTC 6, 2X 1.00 : 3.00 ⌲,Dimension - other
-FTC 9, 2X R,Dimension - other
-FTC 9, 4X R,Dimension - other
-FTC 8, // | .015(T) | A,Parallelism
-FTC 8, // | .015(T) | D,Parallelism
-FTC 8, // | .02 | D,Parallelism
-FTC 8, // | .03 | A,Parallelism
-FTC 8, // | .03(F)(T) | A,Parallelism
-FTC 6, ⏊ | .012 | A,Perpendicularity
-FTC 6, ⏊ | .012 | A | B,Perpendicularity
-FTC 9, ⏊ | ∅.010 | A,Perpendicularity
-FTC 9, ⏊ | ∅.010 | A,Perpendicularity
-FTC 9, ⏊ | ∅.010 | A,Perpendicularity
-FTC 8, ⏊ | ∅.015(M)(F) | A,Perpendicularity
-FTC 9, ⏊ | ∅.016 | A,Perpendicularity
-CTC 5, ⏊ | .010 | C,Perpendicularity
-CTC 5, ⏊ | .010 | D,Perpendicularity
-CTC 1, ⏊ | 1.5 | A,Perpendicularity
-CTC 3, ⏊ | ∅.01 | A,Perpendicularity
-CTC 3, ⏊ | ∅.01 | E,Perpendicularity
-CTC 2, ⏊ | ∅0.05 | D,Perpendicularity
-CTC 2, ⏊ | ∅0.1(L) | G,Perpendicularity
-CTC 2, ⏊ | ∅0.25 | K,Perpendicularity
-FTC 9, 3X ⊕ | .020 | A | B | C (Oriented),Position
-FTC 9, 3X ⊕ | .03 | A | G | H (Oriented),Position
-FTC 9, 3X ⊕ | .060 | A | B | C (Oriented),Position
-FTC 9, ⊕ | .01 | A | G | H (Oriented),Position
-FTC 9, ⊕ | .01 | A | G | H (Oriented),Position
-FTC 9, ⊕ | .01 | A | G | H (Oriented),Position
-FTC 9, ⊕ | .02(M) | A | B | C / BOUNDARY (Oriented),Position
-FTC 6, ⊕ | .025 | D | C | J,Position
-FTC 6, ⊕ | .025 | D | C | K,Position
-FTC 9, ⊕ | .030(M) | A | B | C / BOUNDARY (All Around),Position
-FTC 9, ⊕ | .06(M) | A | B | C / BOUNDARY (Oriented),Position
-FTC 9, ⊕ | ∅.010 | A | G | B (Oriented),Position
-FTC 6, ⊕ | ∅.015 | D | H,Position
-FTC 6, ⊕ | ∅.015 | E | A | B,Position
-FTC 6, ⊕ | ∅.015| D | G,Position
-FTC 9, ⊕ | ∅.016 | A | B,Position
-FTC 9, ⊕ | ∅.016(M) | A | B | C,Position
-FTC 6, ⊕ | ∅.02(M) | F / 4X INDIVIDUALLY,Position
-FTC 9, ⊕ | ∅.020 | A | D | B,Position
-FTC 8, ⊕ | ∅.020(M)(F) | A | B,Position
-FTC 8, ⊕ | ∅.023(M)(F) | A | B | C,Position
-FTC 6, ⊕ | ∅.025(M) | A | B | C,Position
-FTC 9, ⊕ | ∅.025(M) | A | D(M) | E(M) / SEP REQT,Position
-FTC 9, ⊕ | ∅.025(M) | A | D(M) | E(M) / SEP REQT,Position
-FTC 6, ⊕ | ∅.025(M) | C | A | B,Position
-FTC 8, ⊕ | ∅.03 | D | B | C,Position
-FTC 9, ⊕ | ∅.030 [0.76] | A | B | C,Position
-FTC 9, ⊕ | ∅.030 | A | B | C,Position
-FTC 9, ⊕ | ∅.040 | A | B | C,Position
-FTC 9, ⊕ | ∅.050 (P).260 | A | B | C / ∅.010 (P).260 | A,Position
-FTC 9, ⊕ | ∅.050 (P).260 | A | B | C / ∅.010 (P).260 | A,Position
-FTC 9, ⊕ | ∅.050 | A | B | C,Position
-FTC 8, ⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 1,Position
-FTC 8, ⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 1,Position
-FTC 8, ⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 2,Position
-FTC 8, ⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 2,Position
-FTC 6, ⊕ | S∅.025 | D | B | C,Position
-CTC 3, ⊕ | .03 | D | B | C (Oriented),Position
-CTC 1, ⊕ | 0.75 | A | B | C,Position
-CTC 1, ⊕ | 0.75 | A | B | C,Position
-FTC 6, ⊕ | ∅.015 | C | A | B,Position
-CTC 3, ⊕ | ∅.02 | A | B,Position
-CTC 3, ⊕ | ∅.05(M) | A | B(M) | C(M),Position
-CTC 3, ⊕ | ∅.05(M) | D | B | C / SWITCH ...,Position
-CTC 3, ⊕ | ∅.06 | D | B | C,Position
-CTC 3, ⊕ | ∅.08 | D | B | C,Position
-CTC 2, ⊕ | ∅0.05 | D | E,Position
-CTC 2, ⊕ | ∅0.15(L) | G | H,Position
-CTC 4, ⊕ | ∅0.35 | A | B | C,Position
-CTC 4, ⊕ | ∅0.75 (P)50 | A | B | C,Position
-CTC 2, ⊕ | ∅1(L) | A | B | C,Position
-CTC 4, ⊕ | ∅1.5 | D | E | F / ∅0.3 | D | E,Position
-CTC 2, ⊕ | ∅1.5(M) | A | B | C,Position
-CTC 5, ◯ | .002,Roundness
-CTC 5, - | .005,Straightness
-FTC 9, ⌓ | .008 | A | G | H,Surface profile
-FTC 8, ⌓ | .015 | D | G(M) (All Around),Surface profile
-FTC 8, ⌓ | .015 | D | H(M)-J(M) (All Around),Surface profile
-FTC 8, ⌓ | .015 | D | K(M) | L(M) (All Around),Surface profile
-FTC 6, ⌓ | .02 | A | B | C,Surface profile
-FTC 6, ⌓ | .02 | A | B | C,Surface profile
-FTC 9, ⌓ | .02 | A | F(M) (All Around),Surface profile
-FTC 8, ⌓ | .035 | D | B | C,Surface profile
-FTC 6, ⌓ | .04 | A | B | C,Surface profile
-FTC 8, ⌓ | .04 | D | E-F (All Around),Surface profile
-FTC 8, ⌓ | .040 | D | B | C / ⌓ | .005 | D | B | C (All Around),Surface profile
-FTC 8, ⌓ | .05 | A | B | C,Surface profile
-FTC 9, ⌓ | .05 | A | B | C (All Around),Surface profile
-FTC 6, ⌓ | .05 | A | B | C (UOS),Surface profile
-FTC 6, ⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile
-FTC 6, ⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile
-FTC 6, ⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile
-FTC 6, ⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile
-FTC 8, ⌓ | .06 | A | B | C,Surface profile
-FTC 8, ⌓ | .06 | A | B | C,Surface profile
-FTC 8, ⌓ | .06 | A | B | C,Surface profile
-FTC 8, ⌓ | .06 | A | B | C (UOS),Surface profile
-CTC 3, ⌓ | .01 / 2 COPLANAR SURFACES,Surface profile
-CTC 3, ⌓ | .03 | A | B | C,Surface profile
-CTC 3, ⌓ | .06 | A | B | C,Surface profile
-CTC 2, ⌓ | 0.1 / 4 COPLANAR SURFACES,Surface profile
-CTC 1, ⌓ | 0.5 | A (All Around),Surface profile
-CTC 4, ⌓ | 0.5 | A | B | C,Surface profile
-CTC 2, ⌓ | 0.5 | D | E | F,Surface profile
-CTC 2, ⌓ | 0.5 | D | E | F(M),Surface profile
-CTC 2, ⌓ | 0.5 | D | E(M) | F,Surface profile
-CTC 2, ⌓ | 0.5 | D | E(M) | F(M),Surface profile
-CTC 2, ⌓ | 0.75 | A | B | C,Surface profile
-CTC 2, ⌓ | 0.8 | G | H | J,Surface profile
-CTC 2, ⌓ | 0.8 | G | H | J(L),Surface profile
-CTC 2, ⌓ | 0.8 | G | H(L) | J,Surface profile
-CTC 2, ⌓ | 0.8 | G | H(L) | J(L),Surface profile
-CTC 1, ⌓ | 1.25 | A | B | C / A ↔ B,Surface profile
-CTC 4, ⌓ | 2 | D | G | H / 0.2 | D / 2 SURFACES,Surface profile
-CTC 2, ⌓ | 2.5 (U)0 | A | B | C,Surface profile
-CTC 2, ⌓ | 2.5 (U)0.5 | A | B | C,Surface profile
-CTC 2, ⌓ | 2.5 (U)2.5 | A | B | C,Surface profile
-CTC 5, ⌰ | .002 | A,Total runout
-CTC 5, ⌰ | .015 | B,Total runout
+CTC 01,A,Datum feature
+CTC 01,B,Datum feature
+CTC 01,C,Datum feature
+CTC 01,60° ±0.5°,Dimension
+CTC 01,∅20 +0.05/-0.10,Dimension
+CTC 01,∅20 +0.10/-0.05,Dimension
+CTC 01,∅25 ±0.15,Dimension
+CTC 01,∅34.8 - 35.2,Dimension
+CTC 01,∅35 +0.2/0,Dimension
+CTC 01,∅35 0/-0.2,Dimension
+CTC 01,∅35.2/34.8,Dimension
+CTC 01,▱ | 0.2,Flatness tolerance
+CTC 01,⏊ | 1.5 | A,Perpendicularity tolerance
+CTC 01,⊕ | 0.75 | A | B | C,Position tolerance
+CTC 01,⊕ | 0.75 | A | B | C,Position tolerance
+CTC 01,⌓ | 0.5 | A (All Around),Surface profile tolerance
+CTC 01,⌓ | 1.25 | A | B | C / A ↔ B,Surface profile tolerance
+CTC 02,D,Datum feature
+CTC 02,E,Datum feature
+CTC 02,F,Datum feature
+CTC 02,G,Datum feature
+CTC 02,H,Datum feature
+CTC 02,J,Datum feature
+CTC 02,A1 (point),Datum target
+CTC 02,A2 (point),Datum target
+CTC 02,A3 (point),Datum target
+CTC 02,B1 (point),Datum target
+CTC 02,B2 (point),Datum target
+CTC 02,B3 (point),Datum target
+CTC 02,B4 (point),Datum target
+CTC 02,C1 (point),Datum target
+CTC 02,K1 ∅0.85,Datum target
+CTC 02,2X ∅100 ±0.15,Dimension
+CTC 02,2X ∅52 ±0.15,Dimension
+CTC 02,∅12 ±0.05,Dimension
+CTC 02,∅12 ±0.05,Dimension
+CTC 02,∅22 ±0.1,Dimension
+CTC 02,∅22 ±0.1,Dimension
+CTC 02,∅40 ±0.15,Dimension
+CTC 02,▱ | 0.05,Flatness tolerance
+CTC 02,⌒ | 0.25 | A | B | C,Line profile tolerance
+CTC 02,⏊ | ∅0.05 | D,Perpendicularity tolerance
+CTC 02,⏊ | ∅0.1(L) | G,Perpendicularity tolerance
+CTC 02,⏊ | ∅0.25 | K,Perpendicularity tolerance
+CTC 02,⊕ | ∅0.05 | D | E,Position tolerance
+CTC 02,⊕ | ∅0.15(L) | G | H,Position tolerance
+CTC 02,⊕ | ∅1(L) | A | B | C,Position tolerance
+CTC 02,⊕ | ∅1.5(M) | A | B | C,Position tolerance
+CTC 02,⌓ | 0.1 / 4 COPLANAR SURFACES,Surface profile tolerance
+CTC 02,⌓ | 0.5 | D | E | F,Surface profile tolerance
+CTC 02,⌓ | 0.5 | D | E | F(M),Surface profile tolerance
+CTC 02,⌓ | 0.5 | D | E(M) | F,Surface profile tolerance
+CTC 02,⌓ | 0.5 | D | E(M) | F(M),Surface profile tolerance
+CTC 02,⌓ | 0.75 | A | B | C,Surface profile tolerance
+CTC 02,⌓ | 0.8 | G | H | J,Surface profile tolerance
+CTC 02,⌓ | 0.8 | G | H | J(L),Surface profile tolerance
+CTC 02,⌓ | 0.8 | G | H(L) | J,Surface profile tolerance
+CTC 02,⌓ | 0.8 | G | H(L) | J(L),Surface profile tolerance
+CTC 02,⌓ | 2.5 (U)0 | A | B | C,Surface profile tolerance
+CTC 02,⌓ | 2.5 (U)0.5 | A | B | C,Surface profile tolerance
+CTC 02,⌓ | 2.5 (U)2.5 | A | B | C,Surface profile tolerance
+CTC 03,∠ | .04 | A,Angularity tolerance
+CTC 03,A,Datum feature
+CTC 03,B,Datum feature
+CTC 03,C,Datum feature
+CTC 03,D,Datum feature
+CTC 03,E,Datum feature
+CTC 03,F,Datum feature
+CTC 03,2X ∅.438 ±.005,Dimension
+CTC 03,4X .82 ±.06 (Origin),Dimension
+CTC 03,4X ∅.625 ±.005,Dimension
+CTC 03,∅.438 ±.005,Dimension
+CTC 03,∅.438 ±.005,Dimension
+CTC 03,∅1.065 ±.003,Dimension
+CTC 03,∅1.500 ±.005,Dimension
+CTC 03,∅2.00 ±.01,Dimension
+CTC 03,(0.750),Dimension
+CTC 03,▱ | .005 / .25 X .25,Flatness tolerance
+CTC 03,⏊ | ∅.01 | A,Perpendicularity tolerance
+CTC 03,⏊ | ∅.01 | E,Perpendicularity tolerance
+CTC 03,⊕ | .03 | D | B | C (Oriented),Position tolerance
+CTC 03,⊕ | ∅.02 | A | B,Position tolerance
+CTC 03,⊕ | ∅.05(M) | A | B(M) | C(M),Position tolerance
+CTC 03,⊕ | ∅.05(M) | D | B | C / SWITCH ...,Position tolerance
+CTC 03,⊕ | ∅.06 | D | B | C,Position tolerance
+CTC 03,⊕ | ∅.08 | D | B | C,Position tolerance
+CTC 03,⌓ | .01 / 2 COPLANAR SURFACES,Surface profile tolerance
+CTC 03,⌓ | .03 | A | B | C,Surface profile tolerance
+CTC 03,⌓ | .06 | A | B | C,Surface profile tolerance
+CTC 04,A,Datum feature
+CTC 04,B,Datum feature
+CTC 04,C,Datum feature
+CTC 04,D,Datum feature
+CTC 04,E,Datum feature
+CTC 04,F,Datum feature
+CTC 04,G,Datum feature
+CTC 04,H,Datum feature
+CTC 04,[75],Dimension
+CTC 04,[∅10],Dimension
+CTC 04,30X ∅14 ±0.1,Dimension
+CTC 04,6X ∅6.65 ±0.12,Dimension
+CTC 04,30X  ⌵∅20 ±0.3 X 90° ±1°,Dimension - hole
+CTC 04,4X M12 x 1.75 - 6H ↧25 ±0.25,Dimension - hole
+CTC 04,4X ⌴∅20 ±0.2 ↧20 ±0.2,Dimension - hole
+CTC 04,⊕ | ∅0.35 | A | B | C,Position tolerance
+CTC 04,⊕ | ∅0.75 (P)50 | A | B | C,Position tolerance
+CTC 04,⊕ | ∅1.5 | D | E | F / ∅0.3 | D | E,Position tolerance
+CTC 04,⌓ | 0.5 | A | B | C,Surface profile tolerance
+CTC 04,⌓ | 2 | D | G | H / 0.2 | D / 2 SURFACES,Surface profile tolerance
+CTC 05,↗ | .025 | A-B,Circular runout tolerance
+CTC 05,↗ | .025 | A-B,Circular runout tolerance
+CTC 05,↗ | .035 | A-B,Circular runout tolerance
+CTC 05,◎ | .030 | B,Coaxiality tolerance
+CTC 05,A,Datum feature
+CTC 05,B,Datum feature
+CTC 05,C1 (rectangle),Datum target
+CTC 05,D1 (rectangle),Datum target
+CTC 05,∅10.000 ±.001,Dimension
+CTC 05,[1.250],Dimension
+CTC 05,[1.250],Dimension
+CTC 05,[2.000],Dimension
+CTC 05,[2.000],Dimension
+CTC 05,5.000 ±.008 (ST),Dimension
+CTC 05,⏊ | .010 | C,Perpendicularity tolerance
+CTC 05,⏊ | .010 | D,Perpendicularity tolerance
+CTC 05,◯ | .002,Roundness tolerance
+CTC 05,- | .005,Straightness tolerance
+CTC 05,⌰ | .002 | A,Total runout tolerance
+CTC 05,⌰ | .015 | B,Total runout tolerance
+FTC 06,A,Datum feature
+FTC 06,B,Datum feature
+FTC 06,C,Datum feature
+FTC 06,D,Datum feature
+FTC 06,E,Datum feature
+FTC 06,F,Datum feature
+FTC 06,G1 (circular curve),Datum target
+FTC 06,H1 (circular curve),Datum target
+FTC 06,J1 (line),Datum target
+FTC 06,J2 (line),Datum target
+FTC 06,K1 (line),Datum target
+FTC 06,K2 (line),Datum target
+FTC 06,(1.106),Dimension
+FTC 06,(1.106),Dimension
+FTC 06,(∅1.000),Dimension
+FTC 06,(∅1.000),Dimension
+FTC 06,(SR.500),Dimension
+FTC 06,.500 ±.008,Dimension
+FTC 06,.500 ±.008,Dimension
+FTC 06,12.00 ±.01,Dimension
+FTC 06,24X R.125 ±.020,Dimension
+FTC 06,2X CR.50 ±.02,Dimension
+FTC 06,2X ∅.562 ±.008,Dimension
+FTC 06,2X S∅1.250 ±.008,Dimension
+FTC 06,4X ∅.281 ±.008,Dimension
+FTC 06,4X ∅.415 ±.008,Dimension
+FTC 06,∅.250 ±.008,Dimension
+FTC 06,∅.250 ±.008,Dimension
+FTC 06,2X ⌴∅.812 ±.020,Dimension - hole
+FTC 06,⌴∅.40 ±.01,Dimension - hole
+FTC 06,⌴∅.625 ±.020,Dimension - hole
+FTC 06,↧.31 ±.02,Dimension - hole
+FTC 06,↧.50 ±.02,Dimension - hole
+FTC 06,↧.50 ±.05,Dimension - hole
+FTC 06,↧.50 ±.05,Dimension - hole
+FTC 06,↧.56 ±.02,Dimension - hole
+FTC 06,⌳ 1.00 : 2.00,Dimension - other
+FTC 06,2X 1.00 : 3.00 ⌲,Dimension - other
+FTC 06,▱ |  .01,Flatness tolerance
+FTC 06,▱ |  .01,Flatness tolerance
+FTC 06,▱ |  .01,Flatness tolerance
+FTC 06,⏊ | .012 | A,Perpendicularity tolerance
+FTC 06,⏊ | .012 | A | B,Perpendicularity tolerance
+FTC 06,⊕ | .025 | D | C | J,Position tolerance
+FTC 06,⊕ | .025 | D | C | K,Position tolerance
+FTC 06,⊕ | ∅.015 | D | H,Position tolerance
+FTC 06,⊕ | ∅.015 | E | A | B,Position tolerance
+FTC 06,⊕ | ∅.015| D | G,Position tolerance
+FTC 06,⊕ | ∅.02(M) | F / 4X INDIVIDUALLY,Position tolerance
+FTC 06,⊕ | ∅.025(M) | A | B | C,Position tolerance
+FTC 06,⊕ | ∅.025(M) | C | A | B,Position tolerance
+FTC 06,⊕ | S∅.025 | D | B | C,Position tolerance
+FTC 06,⊕ | ∅.015 | C | A | B,Position tolerance
+FTC 06,⌓ | .02 | A | B | C,Surface profile tolerance
+FTC 06,⌓ | .02 | A | B | C,Surface profile tolerance
+FTC 06,⌓ | .04 | A | B | C,Surface profile tolerance
+FTC 06,⌓ | .05 | A | B | C (UOS),Surface profile tolerance
+FTC 06,⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile tolerance
+FTC 06,⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile tolerance
+FTC 06,⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile tolerance
+FTC 06,⌓ | .05 | D | B | C / .01 | D / 2 SURFACES,Surface profile tolerance
+FTC 07,A,Datum feature
+FTC 07,B,Datum feature
+FTC 07,C,Datum feature
+FTC 07,D,Datum feature
+FTC 07,E,Datum feature
+FTC 07,∅.250 +.003 / -.000,Dimension
+FTC 07,∅.250 +.003 / -.000,Dimension
+FTC 07,∅.250 +.003 / -.000,Dimension
+FTC 07,∅.250 +.003 / -.000,Dimension
+FTC 07,∅.281 +.006 / -.001,Dimension
+FTC 07,∅.594 +.012 / -.002,Dimension
+FTC 07,∅.173 +.005 / -.001,Dimension
+FTC 07,∅.875 ± .02 (ST),Dimension
+FTC 07,∅.875 ± .01,Dimension
+FTC 07,∅.438 ± .01,Dimension
+FTC 07,∅.594 +.012 / -.002,Dimension
+FTC 07,R0.012-0.022,Dimension
+FTC 07,▱ | .01 / ∅1.0,Flatness tolerance
+FTC 07,// | .03 | A,Parallelism tolerance
+FTC 07,⏊ | ∅.015 Ⓟ 0.425| A,Perpendicularity tolerance
+FTC 07,⊕ | ∅.04 Ⓜ | ∅0.45 MAX | A | B | C,Position tolerance
+FTC 07,⊕ | ∅.04 Ⓜ | ∅0.45 MAX | A | B | C,Position tolerance
+FTC 07,⊕ | ∅.06 Ⓜ | E | B | C,Position tolerance
+FTC 07,⊕ | ∅.02 Ⓜ | E | B | C,Position tolerance
+FTC 07,⊕ | ∅.06 | A | B | C,Position tolerance
+FTC 07,⊕ | ∅.015 | A,Position tolerance
+FTC 07,⊕ | ∅.05 | A | B | C,Position tolerance
+FTC 07,⊕ | ∅.05 | A | B | C,Position tolerance
+FTC 07,⊕ | ∅.02 Ⓟ 0.425 | A | B,Position tolerance
+FTC 07,⊕ | ∅.023 Ⓟ 0.425 | A | B | C,Position tolerance
+FTC 07,⊕ | ∅.023 Ⓟ 0.150 | D | B | C,Position tolerance
+FTC 07,⌓ | .07 | A | B | C,Surface profile tolerance
+FTC 07,⌓ | .015 | A,Surface profile tolerance
+FTC 07,⌓ | .006 | A | B | C,Surface profile tolerance
+FTC 07,⌓ | .03 | A | B | C,Surface profile tolerance
+FTC 07,⌓ | .005 | A | B | C,Surface profile tolerance
+FTC 07,⌓ | .04 | A | B | C,Surface profile tolerance
+FTC 07,⌓ | .01 | A,Surface profile tolerance
+FTC 07,⌓ | .07 | A | B | C,Surface profile tolerance
+FTC 07,⌓ | .015 | A,Surface profile tolerance
+FTC 07,⌓ | .06 | A | B | C,Surface profile tolerance
+FTC 07,⌓ | .06 | A | B | C (UOS),Surface profile tolerance
+FTC 07,⌓ | .015,Surface profile tolerance
+FTC 08,A,Datum feature
+FTC 08,B,Datum feature
+FTC 08,C,Datum feature
+FTC 08,D,Datum feature
+FTC 08,E,Datum feature
+FTC 08,F,Datum feature
+FTC 08,G,Datum feature
+FTC 08,H,Datum feature
+FTC 08,J,Datum feature
+FTC 08,K,Datum feature
+FTC 08,L,Datum feature
+FTC 08,(□1.100),Dimension
+FTC 08,10X ∅.213 +.005/-.001,Dimension
+FTC 08,2X ∅.238 +.005/-.001,Dimension
+FTC 08,2X ∅.250 +.006/-.001,Dimension
+FTC 08,∅.228 +.005/-.001,Dimension
+FTC 08,∅.228 +.005/-.001,Dimension
+FTC 08,∅.238 +.005/-.001,Dimension
+FTC 08,∅.238 +.005/-.001,Dimension
+FTC 08,∅.242 +.005/-.001,Dimension
+FTC 08,∅.242 +.005/-.001,Dimension
+FTC 08,▱ |  .015,Flatness tolerance
+FTC 08,▱ |  .015 / L1 ↔ L2,Flatness tolerance
+FTC 08,▱ |  .03(F),Flatness tolerance
+FTC 08,// | .015(T) | A,Parallelism tolerance
+FTC 08,// | .015(T) | D,Parallelism tolerance
+FTC 08,// | .02 | D,Parallelism tolerance
+FTC 08,// | .03 | A,Parallelism tolerance
+FTC 08,// | .03(F)(T) | A,Parallelism tolerance
+FTC 08,⏊ | ∅.015(M)(F) | A,Perpendicularity tolerance
+FTC 08,⊕ | ∅.020(M)(F) | A | B,Position tolerance
+FTC 08,⊕ | ∅.023(M)(F) | A | B | C,Position tolerance
+FTC 08,⊕ | ∅.03 | D | B | C,Position tolerance
+FTC 08,⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 1,Position tolerance
+FTC 08,⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 1,Position tolerance
+FTC 08,⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 2,Position tolerance
+FTC 08,⊕ | ∅.050(M) | D | B | C / ∅.020(M) | D | B | C / SIM REQT 2,Position tolerance
+FTC 08,⌓ | .015 | D | G(M) (All Around),Surface profile tolerance
+FTC 08,⌓ | .015 | D | H(M)-J(M) (All Around),Surface profile tolerance
+FTC 08,⌓ | .015 | D | K(M) | L(M) (All Around),Surface profile tolerance
+FTC 08,⌓ | .035 | D | B | C,Surface profile tolerance
+FTC 08,⌓ | .04 | D | E-F (All Around),Surface profile tolerance
+FTC 08,⌓ | .040 | D | B | C / ⌓ | .005 | D | B | C (All Around),Surface profile tolerance
+FTC 08,⌓ | .05 | A | B | C,Surface profile tolerance
+FTC 08,⌓ | .06 | A | B | C,Surface profile tolerance
+FTC 08,⌓ | .06 | A | B | C,Surface profile tolerance
+FTC 08,⌓ | .06 | A | B | C,Surface profile tolerance
+FTC 08,⌓ | .06 | A | B | C (UOS),Surface profile tolerance
+FTC 09,A,Datum feature
+FTC 09,B,Datum feature
+FTC 09,C,Datum feature
+FTC 09,D,Datum feature
+FTC 09,E,Datum feature
+FTC 09,F,Datum feature
+FTC 09,G,Datum feature
+FTC 09,H,Datum feature
+FTC 09,.140 ± .008 (Oriented),Dimension
+FTC 09,2X .25 ±.01,Dimension
+FTC 09,2X 1.00 ±.02 (Oriented),Dimension
+FTC 09,2X ∅.156 ±.008,Dimension
+FTC 09,2X ∅.156 ±.008,Dimension
+FTC 09,2X ∅.221 ±.008,Dimension
+FTC 09,2X ∅.234 ±.008,Dimension
+FTC 09,2X ∅.315 ±.008 [8 ±0.2],Dimension
+FTC 09,3X ∅.156 ±.008,Dimension
+FTC 09,3X ∅.250 +.003/-.000,Dimension
+FTC 09,3X ∅.250 +.003/-.000,Dimension
+FTC 09,3X ∅.281 ±.008,Dimension
+FTC 09,4X ∅.250 ±.008,Dimension
+FTC 09,∅.234 ±.008,Dimension
+FTC 09,∅.234 ±.008,Dimension
+FTC 09,∅.375 ±.008,Dimension
+FTC 09,∅.750 ±.008,Dimension
+FTC 09,4X .03 ±.01 X .03 ±.01,Dimension - hole
+FTC 09,.375 ±.008 X 1.500 ±.012,Dimension - other
+FTC 09,2X R,Dimension - other
+FTC 09,4X R,Dimension - other
+FTC 09,▱ |  .01,Flatness tolerance
+FTC 09,⏊ | ∅.010 | A,Perpendicularity tolerance
+FTC 09,⏊ | ∅.010 | A,Perpendicularity tolerance
+FTC 09,⏊ | ∅.010 | A,Perpendicularity tolerance
+FTC 09,⏊ | ∅.016 | A,Perpendicularity tolerance
+FTC 09,3X ⊕ | .020 | A | B | C (Oriented),Position tolerance
+FTC 09,3X ⊕ | .03 | A | G | H (Oriented),Position tolerance
+FTC 09,3X ⊕ | .060 | A | B | C (Oriented),Position tolerance
+FTC 09,⊕ | .01 | A | G | H (Oriented),Position tolerance
+FTC 09,⊕ | .01 | A | G | H (Oriented),Position tolerance
+FTC 09,⊕ | .01 | A | G | H (Oriented),Position tolerance
+FTC 09,⊕ | .02(M) | A | B | C / BOUNDARY (Oriented),Position tolerance
+FTC 09,⊕ | .030(M) | A | B | C / BOUNDARY (All Around),Position tolerance
+FTC 09,⊕ | .06(M) | A | B | C / BOUNDARY (Oriented),Position tolerance
+FTC 09,⊕ | ∅.010 | A | G | B (Oriented),Position tolerance
+FTC 09,⊕ | ∅.016 | A | B,Position tolerance
+FTC 09,⊕ | ∅.016(M) | A | B | C,Position tolerance
+FTC 09,⊕ | ∅.020 | A | D | B,Position tolerance
+FTC 09,⊕ | ∅.025(M) | A | D(M) | E(M) / SEP REQT,Position tolerance
+FTC 09,⊕ | ∅.025(M) | A | D(M) | E(M) / SEP REQT,Position tolerance
+FTC 09,⊕ | ∅.030 [0.76] | A | B | C,Position tolerance
+FTC 09,⊕ | ∅.030 | A | B | C,Position tolerance
+FTC 09,⊕ | ∅.040 | A | B | C,Position tolerance
+FTC 09,⊕ | ∅.050 (P).260 | A | B | C / ∅.010 (P).260 | A,Position tolerance
+FTC 09,⊕ | ∅.050 (P).260 | A | B | C / ∅.010 (P).260 | A,Position tolerance
+FTC 09,⊕ | ∅.050 | A | B | C,Position tolerance
+FTC 09,⌓ | .008 | A | G | H,Surface profile tolerance
+FTC 09,⌓ | .02 | A | F(M) (All Around),Surface profile tolerance
+FTC 09,⌓ | .05 | A | B | C (All Around),Surface profile tolerance
+FTC 10,⌭ | 0.1,Cylindricity tolerance
+FTC 10,⌭ | 0.1,Cylindricity tolerance
+FTC 10,B,Datum feature
+FTC 10,C,Datum feature
+FTC 10,E,Datum feature
+FTC 10,F,Datum feature
+FTC 10,G,Datum feature
+FTC 10,H,Datum feature
+FTC 10,J,Datum feature
+FTC 10,K,Datum feature
+FTC 10,L,Datum feature
+FTC 10,A,Datum feature
+FTC 10,K1 (area),Datum target
+FTC 10,K2 (area),Datum target
+FTC 10,L1 (area) (movable),Datum target
+FTC 10,L2 (area) (movable),Datum target
+FTC 10,∅6.00 ± 0.15,Dimension
+FTC 10,∅3.50 G 6,Dimension
+FTC 10,∅3.50 G 6,Dimension
+FTC 10,∅5.5 ± 0.2,Dimension
+FTC 10,∅3.5 ± 0.2,Dimension
+FTC 10,∅6.00 ± 0.15,Dimension
+FTC 10,∅2.50 ± 0.15,Dimension
+FTC 10,∅6.00 ± 0.15,Dimension
+FTC 10,∅5.50 ± 0.02,Dimension
+FTC 10,∅10.00 ± 0.25,Dimension
+FTC 10,∅10.00 ± 0.25,Dimension
+FTC 10,∅10.00 ± 0.25,Dimension
+FTC 10,∅3.50 G 6,Dimension
+FTC 10,5.0 ± 0.2,Dimension
+FTC 10,15.0 ± 0.2,Dimension
+FTC 10,∅7.0 ± 0.25,Dimension
+FTC 10,R.20 MAX,Dimension
+FTC 10,R.15 MAX,Dimension
+FTC 10,▱ | 0.2,Flatness tolerance
+FTC 10,⏊ | 0.1 | A,Perpendicularity tolerance
+FTC 10,⏊ | 0.25 | H (All Around),Perpendicularity tolerance
+FTC 10,⏊ | ∅0.12 | D,Perpendicularity tolerance
+FTC 10,⏊ | ∅0.12 | D,Perpendicularity tolerance
+FTC 10,⏊ | ∅0.12 | D,Perpendicularity tolerance
+FTC 10,⏊ | ∅0.25 | A,Perpendicularity tolerance
+FTC 10,⊕ | ∅1.0 Ⓜ | A | B | C,Position tolerance
+FTC 10,⊕ | ∅0.0 Ⓛ | H | K | L,Position tolerance
+FTC 10,⊕ | ∅0.8 | H | K | L,Position tolerance
+FTC 10,⊕ | ∅0.0 Ⓜ | A | B | C,Position tolerance
+FTC 10,⊕ | 1.0 | A | B | C,Position tolerance
+FTC 10,⊕ | ∅0.8 | A | B | C,Position tolerance
+FTC 10,⊕ | ∅1.2 | A | B | C,Position tolerance
+FTC 10,⊕ | ∅0.8 | D | B | C,Position tolerance
+FTC 10,⊕ | ∅0.8 | D | B | C,Position tolerance
+FTC 10,⊕ | ∅0.8 | D | B | C,Position tolerance
+FTC 10,⊕ | ∅0.8 Ⓟ 3.2 | D | E | B,Position tolerance
+FTC 10,⊕ | ∅0.8 Ⓟ 3.2 | D | F | B,Position tolerance
+FTC 10,⊕ | ∅0.8 Ⓟ 3.2 | D | G | B,Position tolerance
+FTC 10,⊕ | ∅0.5 | A | B,Position tolerance
+FTC 10,⊕ | ∅0.75 | A | B | C,Position tolerance
+FTC 10,⊕ | ∅0.65 | A | B | C,Position tolerance
+FTC 10,⊕ | ∅0.8 | D | E Ⓜ-F Ⓜ-G Ⓜ,Position tolerance
+FTC 10,- | 0.1 / 15,Straightness tolerance
+FTC 10,⌓ | 1.5 | A | B | C (All Around),Surface profile tolerance
+FTC 10,⌓ | 1.2 | A | B | C,Surface profile tolerance
+FTC 10,⌓ | 0.15 | A,Surface profile tolerance
+FTC 10,⌓ | 1.0 | A | B | C,Surface profile tolerance
+FTC 10,⌓ | 1.5 | A | B | C (UOS),Surface profile tolerance
+FTC 10,⌓ | 0.12 | A,Surface profile tolerance
+FTC 10,⌓ | 1.2 | A | B | C,Surface profile tolerance
+FTC 10,⌓ | 1.2 | A | B | C,Surface profile tolerance
+FTC 10,⌓ | 0.2 | A,Surface profile tolerance
+FTC 10,⌓ | 1.75 | A | B | C,Surface profile tolerance
+FTC 10,⌯ | 0.5 | A | J,Symmetry tolerance
+FTC 11,↗ | 1.2 Ⓕ | A | B,Circular runout tolerance
+FTC 11,A,Datum feature
+FTC 11,B,Datum feature
+FTC 11,∅32.0 ± 0.3 AVG,Dimension
+FTC 11,∅63.0 ± 0.5 AVG,Dimension
+FTC 11,1.92 ± 0.08,Dimension
+FTC 11,R.10 MAX,Dimension
+FTC 11,R1.50 ± 0.04,Dimension
+FTC 11,(197.9) (Arc Length),Dimension
+FTC 11,▱ | 0.3 Ⓕ,Flatness tolerance
+FTC 11,◯ | 1.2 Ⓕ,Roundness tolerance
+FTC 11,⌓ | 0.3 Ⓕ | A | B,Surface profile tolerance
