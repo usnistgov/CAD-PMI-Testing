@@ -208,18 +208,18 @@ FTC 07,∅.594 +.012 / -.002,Dimension
 FTC 07,R0.012-0.022,Dimension
 FTC 07,▱ | .01 / ∅1.0,Flatness tolerance
 FTC 07,// | .03 | A,Parallelism tolerance
-FTC 07,⏊ | ∅.015 Ⓟ 0.425| A,Perpendicularity tolerance
-FTC 07,⊕ | ∅.04 Ⓜ | ∅0.45 MAX | A | B | C,Position tolerance
-FTC 07,⊕ | ∅.04 Ⓜ | ∅0.45 MAX | A | B | C,Position tolerance
-FTC 07,⊕ | ∅.06 Ⓜ | E | B | C,Position tolerance
-FTC 07,⊕ | ∅.02 Ⓜ | E | B | C,Position tolerance
+FTC 07,⏊ | ∅.015 (P)0.425| A,Perpendicularity tolerance
+FTC 07,⊕ | ∅.04(M) | ∅0.45 MAX | A | B | C,Position tolerance
+FTC 07,⊕ | ∅.04(M) | ∅0.45 MAX | A | B | C,Position tolerance
+FTC 07,⊕ | ∅.06(M) | E | B | C,Position tolerance
+FTC 07,⊕ | ∅.02(M) | E | B | C,Position tolerance
 FTC 07,⊕ | ∅.06 | A | B | C,Position tolerance
 FTC 07,⊕ | ∅.015 | A,Position tolerance
 FTC 07,⊕ | ∅.05 | A | B | C,Position tolerance
 FTC 07,⊕ | ∅.05 | A | B | C,Position tolerance
-FTC 07,⊕ | ∅.02 Ⓟ 0.425 | A | B,Position tolerance
-FTC 07,⊕ | ∅.023 Ⓟ 0.425 | A | B | C,Position tolerance
-FTC 07,⊕ | ∅.023 Ⓟ 0.150 | D | B | C,Position tolerance
+FTC 07,⊕ | ∅.02 (P)0.425 | A | B,Position tolerance
+FTC 07,⊕ | ∅.023 (P)0.425 | A | B | C,Position tolerance
+FTC 07,⊕ | ∅.023 (P)0.150 | D | B | C,Position tolerance
 FTC 07,⌓ | .07 | A | B | C,Surface profile tolerance
 FTC 07,⌓ | .015 | A,Surface profile tolerance
 FTC 07,⌓ | .006 | A | B | C,Surface profile tolerance
@@ -379,23 +379,23 @@ FTC 10,⏊ | ∅0.12 | D,Perpendicularity tolerance
 FTC 10,⏊ | ∅0.12 | D,Perpendicularity tolerance
 FTC 10,⏊ | ∅0.12 | D,Perpendicularity tolerance
 FTC 10,⏊ | ∅0.25 | A,Perpendicularity tolerance
-FTC 10,⊕ | ∅1.0 Ⓜ | A | B | C,Position tolerance
-FTC 10,⊕ | ∅0.0 Ⓛ | H | K | L,Position tolerance
+FTC 10,⊕ | ∅1.0(M) | A | B | C,Position tolerance
+FTC 10,⊕ | ∅0.0(L) | H | K | L,Position tolerance
 FTC 10,⊕ | ∅0.8 | H | K | L,Position tolerance
-FTC 10,⊕ | ∅0.0 Ⓜ | A | B | C,Position tolerance
+FTC 10,⊕ | ∅0.0(M) | A | B | C,Position tolerance
 FTC 10,⊕ | 1.0 | A | B | C,Position tolerance
 FTC 10,⊕ | ∅0.8 | A | B | C,Position tolerance
 FTC 10,⊕ | ∅1.2 | A | B | C,Position tolerance
 FTC 10,⊕ | ∅0.8 | D | B | C,Position tolerance
 FTC 10,⊕ | ∅0.8 | D | B | C,Position tolerance
 FTC 10,⊕ | ∅0.8 | D | B | C,Position tolerance
-FTC 10,⊕ | ∅0.8 Ⓟ 3.2 | D | E | B,Position tolerance
-FTC 10,⊕ | ∅0.8 Ⓟ 3.2 | D | F | B,Position tolerance
-FTC 10,⊕ | ∅0.8 Ⓟ 3.2 | D | G | B,Position tolerance
+FTC 10,⊕ | ∅0.8 (P)3.2 | D | E | B,Position tolerance
+FTC 10,⊕ | ∅0.8 (P)3.2 | D | F | B,Position tolerance
+FTC 10,⊕ | ∅0.8 (P)3.2 | D | G | B,Position tolerance
 FTC 10,⊕ | ∅0.5 | A | B,Position tolerance
 FTC 10,⊕ | ∅0.75 | A | B | C,Position tolerance
 FTC 10,⊕ | ∅0.65 | A | B | C,Position tolerance
-FTC 10,⊕ | ∅0.8 | D | E Ⓜ-F Ⓜ-G Ⓜ,Position tolerance
+FTC 10,⊕ | ∅0.8 | D | E(M)-F(M)-G(M),Position tolerance
 FTC 10,- | 0.1 / 15,Straightness tolerance
 FTC 10,⌓ | 1.5 | A | B | C (All Around),Surface profile tolerance
 FTC 10,⌓ | 1.2 | A | B | C,Surface profile tolerance
@@ -408,7 +408,7 @@ FTC 10,⌓ | 1.2 | A | B | C,Surface profile tolerance
 FTC 10,⌓ | 0.2 | A,Surface profile tolerance
 FTC 10,⌓ | 1.75 | A | B | C,Surface profile tolerance
 FTC 10,⌯ | 0.5 | A | J,Symmetry tolerance
-FTC 11,↗ | 1.2 Ⓕ | A | B,Circular runout tolerance
+FTC 11,↗ | 1.2(F) | A | B,Circular runout tolerance
 FTC 11,A,Datum feature
 FTC 11,B,Datum feature
 FTC 11,∅32.0 ± 0.3 AVG,Dimension
@@ -417,6 +417,6 @@ FTC 11,1.92 ± 0.08,Dimension
 FTC 11,R.10 MAX,Dimension
 FTC 11,R1.50 ± 0.04,Dimension
 FTC 11,(197.9) (Arc Length),Dimension
-FTC 11,▱ | 0.3 Ⓕ,Flatness tolerance
-FTC 11,◯ | 1.2 Ⓕ,Roundness tolerance
-FTC 11,⌓ | 0.3 Ⓕ | A | B,Surface profile tolerance
+FTC 11,▱ | 0.3(F),Flatness tolerance
+FTC 11,◯ | 1.2(F),Roundness tolerance
+FTC 11,⌓ | 0.3(F) | A | B,Surface profile tolerance
