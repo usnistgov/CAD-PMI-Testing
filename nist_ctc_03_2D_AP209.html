@@ -46,7 +46,7 @@ function tog2D(choice){
 </script>
 </head>
 
-<body><font face="arial">
+<body>
     {% include NISTBodyHeader.html %}
     <div id="main" class="nist-main">
 
@@ -60,9 +60,9 @@ rendered with <a href="https://www.x3dom.org/" target="_blank">X3DOM</a>.  The f
 </ul>
 <p>
 <input type='checkbox' checked onclick='togND(this.value)'/>Nodes&nbsp;&nbsp;
-<input type='checkbox' checked onclick='togWF(this.value)'/>Wireframe&nbsp;&nbsp;
+<input type='checkbox' checked onclick='togWF(this.value)'/>Mesh&nbsp;&nbsp;
 <input type='checkbox' checked onclick='tog2D(this.value)'/>Surface_3D&nbsp;&nbsp;
-<input style='width:80px' type='range' min='0' max='1' step='0.25' value='0' onchange='matTrans(this.value)'/>Transparency (might not appear correct)
+<input style='width:80px' type='range' min='0' max='0.8' step='0.2' value='0' onchange='matTrans(this.value)'/>Transparency (might not appear correct)
 <table><tr><td>
 
 <X3D id='someUniqueId' showStat='false' showLog='false' x='0px' y='0px' width='1344px' height='840px'>
