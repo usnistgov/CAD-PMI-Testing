@@ -12,42 +12,42 @@ title: "AP209 Finite Element Model Viewer | STEP File Analyzer"
 <script type='text/javascript' src='https://www.x3dom.org/x3dom/release/x3dom.js'></script>
 <script>
 function togND(choice){
- if (!document.getElementById('swND').checked) {
-  document.getElementById('swND').setAttribute('whichChoice', -1);
+ if (!document.getElementById('swNodes').checked) {
+  document.getElementById('swNodes').setAttribute('whichChoice', -1);
  } else {
-  document.getElementById('swND').setAttribute('whichChoice', 0);
+  document.getElementById('swNodes').setAttribute('whichChoice', 0);
  }
- document.getElementById('swND').checked = !document.getElementById('swND').checked;
+ document.getElementById('swNodes').checked = !document.getElementById('swNodes').checked;
 }
 </script>
 <script>
 function togWF(choice){
- if (!document.getElementById('swWF').checked) {
-  document.getElementById('swWF').setAttribute('whichChoice', -1);
+ if (!document.getElementById('swMesh').checked) {
+  document.getElementById('swMesh').setAttribute('whichChoice', -1);
  } else {
-  document.getElementById('swWF').setAttribute('whichChoice', 0);
+  document.getElementById('swMesh').setAttribute('whichChoice', 0);
  }
- document.getElementById('swWF').checked = !document.getElementById('swWF').checked;
+ document.getElementById('swMesh').checked = !document.getElementById('swMesh').checked;
 }
 </script>
 <script>
 function tog1D(choice){
- if (!document.getElementById('sw1D').checked) {
-  document.getElementById('sw1D').setAttribute('whichChoice', -1);
+ if (!document.getElementById('sw1DElements').checked) {
+  document.getElementById('sw1DElements').setAttribute('whichChoice', -1);
  } else {
-  document.getElementById('sw1D').setAttribute('whichChoice', 0);
+  document.getElementById('sw1DElements').setAttribute('whichChoice', 0);
  }
- document.getElementById('sw1D').checked = !document.getElementById('sw1D').checked;
+ document.getElementById('sw1DElements').checked = !document.getElementById('sw1DElements').checked;
 }
 </script>
 <script>
 function tog2D(choice){
- if (!document.getElementById('sw2D').checked) {
-  document.getElementById('sw2D').setAttribute('whichChoice', -1);
+ if (!document.getElementById('sw2DElements').checked) {
+  document.getElementById('sw2DElements').setAttribute('whichChoice', -1);
  } else {
-  document.getElementById('sw2D').setAttribute('whichChoice', 0);
+  document.getElementById('sw2DElements').setAttribute('whichChoice', 0);
  }
- document.getElementById('sw2D').checked = !document.getElementById('sw2D').checked;
+ document.getElementById('sw2DElements').checked = !document.getElementById('sw2DElements').checked;
 }
 </script>
 <script>function matTrans(trans){
