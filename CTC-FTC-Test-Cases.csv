@@ -175,7 +175,7 @@ FTC 06,⊕ | .025 | D | C | J,Position tolerance
 FTC 06,⊕ | .025 | D | C | K,Position tolerance
 FTC 06,⊕ | ∅.015 | D | H,Position tolerance
 FTC 06,⊕ | ∅.015 | E | A | B,Position tolerance
-FTC 06,⊕ | ∅.015| D | G,Position tolerance
+FTC 06,⊕ | ∅.015 | D | G,Position tolerance
 FTC 06,⊕ | ∅.02(M) | F / 4X INDIVIDUALLY,Position tolerance
 FTC 06,⊕ | ∅.025(M) | A | B | C,Position tolerance
 FTC 06,⊕ | ∅.025(M) | C | A | B,Position tolerance
@@ -208,7 +208,7 @@ FTC 07,∅.594 +.012 / -.002,Dimension
 FTC 07,R0.012-0.022,Dimension
 FTC 07,▱ | .01 / ∅1.0,Flatness tolerance
 FTC 07,// | .03 | A,Parallelism tolerance
-FTC 07,⏊ | ∅.015 (P)0.425| A,Perpendicularity tolerance
+FTC 07,⏊ | ∅.015 (P)0.425 | A,Perpendicularity tolerance
 FTC 07,⊕ | ∅.04(M) | ∅0.45 MAX | A | B | C,Position tolerance
 FTC 07,⊕ | ∅.04(M) | ∅0.45 MAX | A | B | C,Position tolerance
 FTC 07,⊕ | ∅.06(M) | E | B | C,Position tolerance
