@@ -39,24 +39,24 @@ in 'Examine' mode to rotate, pan, and zoom.  Use Page Down to switch between per
 
 <!-- SUPPLEMENTAL GEOMETRY -->
 <Switch whichChoice='0' id='swSMG'><Group>
-<Transform translation='142.875 98.425 0.' rotation='-1. 1. 0. 3.1416'>
+<Transform translation='5.625 3.875 0.' rotation='-1. 1. 0. 3.1416'>
  <Group DEF='sgAxes'>
-  <Shape><Appearance><Material emissiveColor='1 0 0'></Material></Appearance><IndexedLineSet coordIndex='0 1 -1'><Coordinate point='0. 0. 0. 16.591 0. 0.'></Coordinate></IndexedLineSet></Shape>
-  <Shape><Appearance><Material emissiveColor='0 .5 0'></Material></Appearance><IndexedLineSet coordIndex='0 1 -1'><Coordinate point='0. 0. 0. 0. 16.591 0.'></Coordinate></IndexedLineSet></Shape>
-  <Shape><Appearance><Material emissiveColor='0 0 1'></Material></Appearance><IndexedLineSet coordIndex='0 1 -1'><Coordinate point='0. 0. 0. 0. 0. 16.591'></Coordinate></IndexedLineSet></Shape>
+  <Shape><Appearance><Material emissiveColor='1 0 0'></Material></Appearance><IndexedLineSet coordIndex='0 1 -1'><Coordinate point='0. 0. 0. 0.656 0. 0.'></Coordinate></IndexedLineSet></Shape>
+  <Shape><Appearance><Material emissiveColor='0 .5 0'></Material></Appearance><IndexedLineSet coordIndex='0 1 -1'><Coordinate point='0. 0. 0. 0. 0.656 0.'></Coordinate></IndexedLineSet></Shape>
+  <Shape><Appearance><Material emissiveColor='0 0 1'></Material></Appearance><IndexedLineSet coordIndex='0 1 -1'><Coordinate point='0. 0. 0. 0. 0. 0.656'></Coordinate></IndexedLineSet></Shape>
  </Group>
- <Transform scale='8.212499999999999 8.212499999999999 8.212499999999999'><Billboard axisOfRotation='0 0 0'><Shape><Appearance><Material diffuseColor='0 0 0'></Material></Appearance><Text string='"ABC"'><FontStyle family='"SANS"' justify='"BEGIN"'></FontStyle></Text></Shape></Billboard></Transform>
+ <Transform scale='0.324 0.324 0.324'><Billboard axisOfRotation='0 0 0'><Shape><Appearance><Material diffuseColor='0 0 0'></Material></Appearance><Text string='"ABC"'><FontStyle family='"SANS"' justify='"BEGIN"'></FontStyle></Text></Shape></Billboard></Transform>
 </Transform>
-<Transform translation='142.875 98.425 48.26' rotation='0. 0. 1. 1.5708'>
- <Group USE='sgAxes'>
- <Transform scale='8.212499999999999 8.212499999999999 8.212499999999999'><Billboard axisOfRotation='0 0 0'><Shape><Appearance><Material diffuseColor='0 0 0'></Material></Appearance><Text string='"DBC"'><FontStyle family='"SANS"' justify='"BEGIN"'></FontStyle></Text></Shape></Billboard></Transform>
+<Transform translation='5.625 3.875 1.9' rotation='0. 0. 1. 1.5708'>
+ <Group USE='sgAxes'></Group>
+ <Transform scale='0.324 0.324 0.324'><Billboard axisOfRotation='0 0 0'><Shape><Appearance><Material diffuseColor='0 0 0'></Material></Appearance><Text string='"DBC"'><FontStyle family='"SANS"' justify='"BEGIN"'></FontStyle></Text></Shape></Billboard></Transform>
 </Transform>
-<Shape DEF='line25211'><Appearance DEF='app1'><Material id='mat1' diffuseColor='0.818 0.512 0.266' specularColor='0.573 0.358 0.186'></Material></Appearance>
- <IndexedFaceSet solid='false' coordIndex='0 1 2 -1 1 2 3 -1'>
-  <Coordinate DEF='coord25181' point='50.8 -102.457 45.212 50.8 -102.457 11.684 -50.8 -102.457 45.212 -50.8 -102.457 11.684'></Coordinate></IndexedFaceSet></Shape>
-<Shape DEF='mesh25211'><Appearance><Material emissiveColor='0 0 0'></Material></Appearance>
- <IndexedLineSet coordIndex='2 0 1 -1 3 1 2 -1 2 3 -1'><Coordinate USE='coord25181'></Coordinate></IndexedLineSet></Shape>
-</Group></Switch>
+<!-- TESSELLATED GEOMETRY that is SUPPLEMENTAL GEOMETRY -->
+<Shape DEF='line25236'><Appearance DEF='app1'><Material id='mat1' diffuseColor='0.818 0.512 0.266' specularColor='0.573 0.358 0.186'></Material></Appearance>
+ <IndexedFaceSet solid='false' coordIndex='3 2 1 -1 2 1 0 -1'>
+  <Coordinate DEF='coord25206' point='-2. -4.034 0.46 -2. -4.034 1.78 2. -4.034 0.46 2. -4.034 1.78'></Coordinate></IndexedFaceSet></Shape>
+<Shape DEF='mesh25236'><Appearance><Material emissiveColor='0 0 0'></Material></Appearance>
+ <IndexedLineSet coordIndex='2 0 1 -1 3 1 2 -1 2 3 -1'><Coordinate USE='coord25206'></Coordinate></IndexedLineSet></Shape>
 </Group></Switch>
 
 
