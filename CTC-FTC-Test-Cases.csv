@@ -75,7 +75,7 @@ CTC 03,∅.438 ±.005,Dimension
 CTC 03,∅1.065 ±.003,Dimension
 CTC 03,∅1.500 ±.005,Dimension
 CTC 03,∅2.00 ±.01,Dimension
-CTC 03,(0.750),Dimension
+CTC 03,(.750),Dimension
 CTC 03,▱ | .005 / .25 X .25,Flatness tolerance
 CTC 03,⏊ | ∅.01 | A,Perpendicularity tolerance
 CTC 03,⏊ | ∅.01 | E,Perpendicularity tolerance
@@ -111,7 +111,7 @@ CTC 04,⌓ | 2 | D | G | H / 0.2 | D / 2 SURFACES,Surface profile tolerance
 CTC 05,↗ | .025 | A-B,Circular runout tolerance
 CTC 05,↗ | .025 | A-B,Circular runout tolerance
 CTC 05,↗ | .035 | A-B,Circular runout tolerance
-CTC 05,◎ | .030 | B,Coaxiality tolerance
+CTC 05,◎ | ∅.030 | A,Coaxiality tolerance
 CTC 05,A,Datum feature
 CTC 05,B,Datum feature
 CTC 05,C1 (rectangle),Datum target
