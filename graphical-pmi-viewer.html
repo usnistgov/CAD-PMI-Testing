@@ -363,7 +363,12 @@ Background Color<br>
  }
  document.getElementById('swBRP').checked = !document.getElementById('swBRP').checked;
 }</script>
- 
+
+<!-- DTR switch -->
+<script>function togDTR(choice){
+ if (!document.getElementById('swDTR').checked) {document.getElementById('swDTR').setAttribute('whichChoice', -1);} else {document.getElementById('swDTR').setAttribute('whichChoice', 0);}
+ document.getElementById('swDTR').checked = !document.getElementById('swDTR').checked;
+}</script>
 
 <!-- MBD_A switch -->
 <script>function togMBD_A(choice){
