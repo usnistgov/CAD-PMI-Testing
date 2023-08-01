@@ -988,6 +988,9 @@ Saved View Graphical PMI
 <br><input type='checkbox' id='cbView3' checked onclick='togView3(this.value)'/>Not in a Saved View
 <p><hr>
 
+<!-- Transparency slider -->
+<p><input style='width:80px' type='range' min='0' max='1' step='0.1' value='0' onchange='matTrans(this.value)'/>&nbsp;Transparency
+
 <p><input type='checkbox' onclick='togBbox(this.value)'/>Part Bounding Box<br>Min:&nbsp;&nbsp;-340.&nbsp;&nbsp;-40.&nbsp;&nbsp;-360.<br>Max:&nbsp;&nbsp;340.&nbsp;&nbsp;820.&nbsp;&nbsp;40.
 
 <!-- Axes button -->
@@ -995,14 +998,10 @@ Saved View Graphical PMI
 
 <!-- Background buttons -->
 <p>Background Color<br>
-<input type='radio' name='bgcolor' value='1 1 1' checked onclick='BGcolor(this.value)'/> White<br>
+<input type='radio' name='bgcolor' value='1 1 1' checked onclick='BGcolor(this.value)'/> White&nbsp;
 <input type='radio' name='bgcolor' value='.53 .81 .92' onclick='BGcolor(this.value)'/> Blue<br>
-<input type='radio' name='bgcolor' value='.8 .8 .8' onclick='BGcolor(this.value)'/> Gray<br>
+<input type='radio' name='bgcolor' value='.8 .8 .8' onclick='BGcolor(this.value)'/> Gray&nbsp;
 <input type='radio' name='bgcolor' value='0 0 0' onclick='BGcolor(this.value)'/> Black
-
-<!-- Transparency slider -->
-<p>Transparency<br>(approximate)<br>
-<input style='width:80px' type='range' min='0' max='1' step='0.1' value='0' onchange='matTrans(this.value)'/>
 </td></tr></table>
 
 <!-- PRT switch -->

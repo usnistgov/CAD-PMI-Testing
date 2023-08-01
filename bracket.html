@@ -219,6 +219,9 @@ $(document).ready(function() {
 <!-- Start common buttons -->
 <p><hr>
 
+<!-- Transparency slider -->
+<p>&nbsp;<nobr><input style='width:80px' type='range' min='0' max='1' step='0.1' value='0' onchange='matTrans(this.value)'/>&nbsp;Transparency</nobr>
+
 <!-- Bounding box checkbox -->
 <p>&nbsp;<input type='checkbox' onclick='togBbox(this.value)'/>&nbsp;Bounding Box<br>&nbsp;Min:&nbsp;&nbsp;-10.&nbsp;&nbsp;0.&nbsp;&nbsp;-4.<br>&nbsp;Max:&nbsp;&nbsp;190.&nbsp;&nbsp;150.&nbsp;&nbsp;80.
 
@@ -227,14 +230,10 @@ $(document).ready(function() {
 
 <!-- Background radio button -->
 &nbsp;Background Color<br>
-&nbsp;<input type='radio' name='bgcolor' value='white'  onclick='BGcolor(this.value)'/>&nbsp;White<br>
+&nbsp;<input type='radio' name='bgcolor' value='white'  onclick='BGcolor(this.value)'/>&nbsp;White&nbsp;
 &nbsp;<input type='radio' name='bgcolor' value='blue' checked onclick='BGcolor(this.value)'/>&nbsp;Blue<br>
-&nbsp;<input type='radio' name='bgcolor' value='gray'  onclick='BGcolor(this.value)'/>&nbsp;Gray<br>
+&nbsp;<input type='radio' name='bgcolor' value='gray'  onclick='BGcolor(this.value)'/>&nbsp;Gray&nbsp;
 &nbsp;<input type='radio' name='bgcolor' value='black' onclick='BGcolor(this.value)'/>&nbsp;Black
-
-<!-- Transparency slider -->
-<p>&nbsp;Transparency<br>&nbsp;(approximate)<br>
-&nbsp;<input style='width:80px' type='range' min='0' max='1' step='0.1' value='0' onchange='matTrans(this.value)'/>
 
 </td></tr></table>
 

@@ -419,21 +419,22 @@ surfaces from those points in an importing system.
 <p><input type='checkbox' checked onclick='togPoints(this.value)'/>Cloud of Points
 <p>
 
+<p><hr>
+
+<!-- Transparency slider -->
+<p><input style='width:80px' type='range' min='0' max='1' step='0.1' value='0' onchange='matTrans(this.value)'/>&nbsp;Transparency
+
 <p><input type='checkbox' onclick='togBbox(this.value)'/>Bounding Box<br>Min:&nbsp;&nbsp;-181.69&nbsp;&nbsp;-59.95&nbsp;&nbsp;-119.95<br>Max:&nbsp;&nbsp;-83.433&nbsp;&nbsp;59.95&nbsp;&nbsp;-25.256
 
 <!-- Axes checkbox -->
-<p><hr><p><input type='checkbox' checked onclick='togAxes(this.value)'/>Origin<p>
+<p><input type='checkbox' checked onclick='togAxes(this.value)'/>Origin<p>
 
 <!-- Background radio button -->
 Background Color<br>
-<input type='radio' name='bgcolor' value='1 1 1' onclick='BGcolor(this.value)'/>White<br>
+<input type='radio' name='bgcolor' value='1 1 1' onclick='BGcolor(this.value)'/>White&nbsp;
 <input type='radio' name='bgcolor' value='.53 .81 .92' checked onclick='BGcolor(this.value)'/>Blue<br>
-<input type='radio' name='bgcolor' value='.8 .8 .8' onclick='BGcolor(this.value)'/>Gray<br>
+<input type='radio' name='bgcolor' value='.8 .8 .8' onclick='BGcolor(this.value)'/>Gray&nbsp;
 <input type='radio' name='bgcolor' value='0 0 0' onclick='BGcolor(this.value)'/>Black
-
-<!-- Transparency slider -->
-<p>Transparency<br>(approximate)<br>
-<input style='width:80px' type='range' min='0' max='1' step='0.1' value='0' onchange='matTrans(this.value)'/>
 
 </td></tr></table>
 
