@@ -1,5 +1,5 @@
 ---
-title: "STEP File Viewer - Bracket Assembly" 
+title: "STEP File Viewer - Bracket Assembly"
 ---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -9,8 +9,8 @@ title: "STEP File Viewer - Bracket Assembly"
 <title>STEP File Viewer - Bracket Assembly</title>
 <base target="_blank">
 <meta http-equiv='Content-Type' content='text/html;charset=utf-8'/>
-<link rel='stylesheet' type='text/css' href='https://pages.nist.gov/CAD-PMI-Testing/x3dom/x3dom.css'/>
-<script type='text/javascript' src='https://pages.nist.gov/CAD-PMI-Testing/x3dom/x3dom.js'></script>
+<link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/1.8.3/x3dom.css'/>
+<script type='text/javascript' src='https://www.x3dom.org/download/1.8.3/x3dom.js'></script>
 <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.0.min.js'></script>
 <script>
 // Mark selection point
@@ -335,7 +335,7 @@ $(document).ready(function() {
  view6.addEventListener('outputchange', function(event) {document.getElementById('clickedView').innerHTML = 'Isometric';}, false);
  var view7 = document.getElementById('Orthographic');
  view7.addEventListener('outputchange', function(event) {document.getElementById('clickedView').innerHTML = 'Orthographic';}, false);
- 
+
  var items = document.getElementsByName('bgcolor');
  for (var i=0; i<items.length; i++) {if (items[i].checked == true) {BGcolor(items[i].value);}}
 }
