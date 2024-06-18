@@ -1,6 +1,6 @@
 # Site settings
 title: "CAD-PMI-Testing"
-description: "Examples from the free NIST STEP File Viewer"
+description: "Examples from the free NIST STEP File Analyzer and Viewer"
 
 baseurl: "/CAD-PMI-Testing"
 url: "https://pages.nist.gov/"
